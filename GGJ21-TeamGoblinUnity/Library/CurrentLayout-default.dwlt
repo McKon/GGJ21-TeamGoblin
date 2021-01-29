@@ -1,0 +1,5315 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PixelRect:
+    serializedVersion: 2
+    x: 1920
+    y: -247.2
+    width: 2048
+    height: 1108.8
+  m_ShowMode: 4
+  m_Title: Scene
+  m_RootView: {fileID: 10}
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_Maximized: 1
+--- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 719
+    y: 0
+    width: 725
+    height: 684
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 21}
+  m_Panes:
+  - {fileID: 21}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 719
+    height: 684
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 20}
+  m_Panes:
+  - {fileID: 20}
+  - {fileID: 15}
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 2
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 3}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1444
+    height: 684
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
+  vertical: 0
+  controlID: 47
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 604
+    height: 363
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 5}
+  - {fileID: 8}
+  m_Position:
+    serializedVersion: 2
+    x: 1444
+    y: 0
+    width: 604
+    height: 1059
+  m_MinSize: {x: 276, y: 292}
+  m_MaxSize: {x: 4001, y: 8042}
+  vertical: 1
+  controlID: 68
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 13}
+  - {fileID: 6}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 2048
+    height: 1059
+  m_MinSize: {x: 679, y: 342}
+  m_MaxSize: {x: 12004, y: 8042}
+  vertical: 0
+  controlID: 67
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 363
+    width: 604
+    height: 696
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ConsoleWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 684
+    width: 1444
+    height: 375
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 22}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 22}
+  - {fileID: 16}
+  m_Selected: 1
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 11}
+  - {fileID: 7}
+  - {fileID: 12}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2048
+    height: 1109
+  m_MinSize: {x: 875, y: 300}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_UseTopView: 1
+  m_TopViewHeight: 30
+  m_UseBottomView: 1
+  m_BottomViewHeight: 20
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12011, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 2048
+    height: 30
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+  m_LoadedToolbars: []
+  m_MainToolbar: {fileID: 23}
+  m_LastLoadedLayoutName: 
+--- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12042, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 1089
+    width: 2048
+    height: 20
+  m_MinSize: {x: 0, y: 0}
+  m_MaxSize: {x: 0, y: 0}
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 4}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1444
+    height: 1059
+  m_MinSize: {x: 403, y: 342}
+  m_MaxSize: {x: 8003, y: 8042}
+  vertical: 1
+  controlID: 46
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Frame Debug
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: -216.79999
+    width: 719
+    height: 663
+  m_ViewDataDictionary: {fileID: 0}
+  m_ListWidth: 300
+  m_TreeViewState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ffffffff
+    m_LastClickedID: 0
+    m_ExpandedIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12070, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 880, y: 216}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Profiler
+    m_Image: {fileID: -1089619856830078684, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: -216.79999
+    width: 719
+    height: 663
+  m_ViewDataDictionary: {fileID: 0}
+  m_VertSplit:
+    ID: 702
+    splitterInitialOffset: 399
+    currentActiveSplitter: -1
+    realSizes:
+    - 408
+    - 234
+    relativeSizes:
+    - 0.63590604
+    - 0.36409396
+    minSizes:
+    - 100
+    - 100
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 642
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 98010000ea000000
+    oldMinSizes: 6400000064000000
+    oldMaxSizes: 0000000000000000
+    oldSplitSize: 6
+  m_Recording: 1
+  m_ActiveNativePlatformSupportModuleName: 
+  m_SelectedModuleIndex: -1
+  m_Modules:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  - id: 4
+  - id: 5
+  - id: 6
+  - id: 7
+  - id: 8
+  - id: 9
+  - id: 10
+  - id: 11
+  - id: 12
+  - id: 13
+  m_ProfilerWindowControllerProxy:
+    id: 14
+  m_CallstackRecordMode: 0
+  m_ClearOnPlay: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: CPUProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: CPU Usage
+        m_IconName: Profiler.CPU
+        m_ChartCounters:
+        - m_Category: NoCategory
+          m_Name: Rendering
+        - m_Category: NoCategory
+          m_Name: Scripts
+        - m_Category: NoCategory
+          m_Name: Physics
+        - m_Category: NoCategory
+          m_Name: Animation
+        - m_Category: NoCategory
+          m_Name: GarbageCollector
+        - m_Category: NoCategory
+          m_Name: VSync
+        - m_Category: NoCategory
+          m_Name: Global Illumination
+        - m_Category: NoCategory
+          m_Name: UI
+        - m_Category: NoCategory
+          m_Name: Others
+        m_DetailCounters: []
+        m_ChartType: 0
+        m_PaneScroll: {x: 0, y: 0}
+        m_ViewType: 1
+        updateViewLive: 0
+        m_ProfilerViewFilteringOptions: 1
+        m_FrameDataHierarchyView:
+          m_Serialized: 0
+          m_TreeViewState:
+            scrollPos: {x: 0, y: 0}
+            m_SelectedIDs: 
+            m_LastClickedID: 0
+            m_ExpandedIDs: 
+            m_RenameOverlay:
+              m_UserAcceptedRename: 0
+              m_Name: 
+              m_OriginalName: 
+              m_EditFieldRect:
+                serializedVersion: 2
+                x: 0
+                y: 0
+                width: 0
+                height: 0
+              m_UserData: 0
+              m_IsWaitingForDelay: 0
+              m_IsRenaming: 0
+              m_OriginalEventType: 11
+              m_IsRenamingFilename: 0
+              m_ClientGUIView: {fileID: 0}
+            m_SearchString: 
+          m_MultiColumnHeaderState:
+            m_Columns: []
+            m_VisibleColumns: 
+            m_SortedColumns: 
+          m_ThreadIndex: 0
+          m_DetailedViewType: 0
+          m_DetailedViewSpliterState:
+            ID: 0
+            splitterInitialOffset: 0
+            currentActiveSplitter: 0
+            realSizes: []
+            relativeSizes: []
+            minSizes: []
+            maxSizes: []
+            lastTotalSize: 0
+            splitSize: 0
+            xOffset: 0
+            m_Version: 1
+            oldRealSizes: 
+            oldMinSizes: 
+            oldMaxSizes: 
+            oldSplitSize: 0
+          m_DetailedObjectsView:
+            m_SelectedID: 0
+            m_TreeViewState:
+              scrollPos: {x: 0, y: 0}
+              m_SelectedIDs: 
+              m_LastClickedID: 0
+              m_ExpandedIDs: 
+              m_RenameOverlay:
+                m_UserAcceptedRename: 0
+                m_Name: 
+                m_OriginalName: 
+                m_EditFieldRect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                m_UserData: 0
+                m_IsWaitingForDelay: 0
+                m_IsRenaming: 0
+                m_OriginalEventType: 11
+                m_IsRenamingFilename: 0
+                m_ClientGUIView: {fileID: 0}
+              m_SearchString: 
+            m_MultiColumnHeaderState:
+              m_Columns: []
+              m_VisibleColumns: 
+              m_SortedColumns: 
+            m_VertSplit:
+              ID: 0
+              splitterInitialOffset: 0
+              currentActiveSplitter: 0
+              realSizes: []
+              relativeSizes: []
+              minSizes: []
+              maxSizes: []
+              lastTotalSize: 0
+              splitSize: 0
+              xOffset: 0
+              m_Version: 1
+              oldRealSizes: 
+              oldMinSizes: 
+              oldMaxSizes: 
+              oldSplitSize: 0
+          m_DetailedCallsView:
+            m_SelectedID: 0
+            m_VertSplit:
+              ID: 0
+              splitterInitialOffset: 0
+              currentActiveSplitter: 0
+              realSizes: []
+              relativeSizes: []
+              minSizes: []
+              maxSizes: []
+              lastTotalSize: 0
+              splitSize: 0
+              xOffset: 0
+              m_Version: 1
+              oldRealSizes: 
+              oldMinSizes: 
+              oldMaxSizes: 
+              oldSplitSize: 0
+            m_CalleesTreeView:
+              m_ViewState:
+                scrollPos: {x: 0, y: 0}
+                m_SelectedIDs: 
+                m_LastClickedID: 0
+                m_ExpandedIDs: 
+                m_RenameOverlay:
+                  m_UserAcceptedRename: 0
+                  m_Name: 
+                  m_OriginalName: 
+                  m_EditFieldRect:
+                    serializedVersion: 2
+                    x: 0
+                    y: 0
+                    width: 0
+                    height: 0
+                  m_UserData: 0
+                  m_IsWaitingForDelay: 0
+                  m_IsRenaming: 0
+                  m_OriginalEventType: 11
+                  m_IsRenamingFilename: 0
+                  m_ClientGUIView: {fileID: 0}
+                m_SearchString: 
+              m_ViewHeaderState:
+                m_Columns: []
+                m_VisibleColumns: 
+                m_SortedColumns: 
+            m_CallersTreeView:
+              m_ViewState:
+                scrollPos: {x: 0, y: 0}
+                m_SelectedIDs: 
+                m_LastClickedID: 0
+                m_ExpandedIDs: 
+                m_RenameOverlay:
+                  m_UserAcceptedRename: 0
+                  m_Name: 
+                  m_OriginalName: 
+                  m_EditFieldRect:
+                    serializedVersion: 2
+                    x: 0
+                    y: 0
+                    width: 0
+                    height: 0
+                  m_UserData: 0
+                  m_IsWaitingForDelay: 0
+                  m_IsRenaming: 0
+                  m_OriginalEventType: 11
+                  m_IsRenamingFilename: 0
+                  m_ClientGUIView: {fileID: 0}
+                m_SearchString: 
+              m_ViewHeaderState:
+                m_Columns: []
+                m_VisibleColumns: 
+                m_SortedColumns: 
+          m_ThreadName: Main Thread
+    00000001:
+      type: {class: GPUProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: GPU Usage
+        m_IconName: Profiler.GPU
+        m_ChartCounters:
+        - m_Category: NoCategory
+          m_Name: Opaque
+        - m_Category: NoCategory
+          m_Name: Transparent
+        - m_Category: NoCategory
+          m_Name: Shadows/Depth
+        - m_Category: NoCategory
+          m_Name: Deferred PrePass
+        - m_Category: NoCategory
+          m_Name: Deferred Lighting
+        - m_Category: NoCategory
+          m_Name: PostProcess
+        - m_Category: NoCategory
+          m_Name: Other
+        m_DetailCounters: []
+        m_ChartType: 0
+        m_PaneScroll: {x: 0, y: 0}
+        m_ViewType: 0
+        updateViewLive: 0
+        m_ProfilerViewFilteringOptions: 1
+        m_FrameDataHierarchyView:
+          m_Serialized: 0
+          m_TreeViewState:
+            scrollPos: {x: 0, y: 0}
+            m_SelectedIDs: 
+            m_LastClickedID: 0
+            m_ExpandedIDs: 
+            m_RenameOverlay:
+              m_UserAcceptedRename: 0
+              m_Name: 
+              m_OriginalName: 
+              m_EditFieldRect:
+                serializedVersion: 2
+                x: 0
+                y: 0
+                width: 0
+                height: 0
+              m_UserData: 0
+              m_IsWaitingForDelay: 0
+              m_IsRenaming: 0
+              m_OriginalEventType: 11
+              m_IsRenamingFilename: 0
+              m_ClientGUIView: {fileID: 0}
+            m_SearchString: 
+          m_MultiColumnHeaderState:
+            m_Columns: []
+            m_VisibleColumns: 
+            m_SortedColumns: 
+          m_ThreadIndex: 0
+          m_DetailedViewType: 0
+          m_DetailedViewSpliterState:
+            ID: 0
+            splitterInitialOffset: 0
+            currentActiveSplitter: 0
+            realSizes: []
+            relativeSizes: []
+            minSizes: []
+            maxSizes: []
+            lastTotalSize: 0
+            splitSize: 0
+            xOffset: 0
+            m_Version: 1
+            oldRealSizes: 
+            oldMinSizes: 
+            oldMaxSizes: 
+            oldSplitSize: 0
+          m_DetailedObjectsView:
+            m_SelectedID: 0
+            m_TreeViewState:
+              scrollPos: {x: 0, y: 0}
+              m_SelectedIDs: 
+              m_LastClickedID: 0
+              m_ExpandedIDs: 
+              m_RenameOverlay:
+                m_UserAcceptedRename: 0
+                m_Name: 
+                m_OriginalName: 
+                m_EditFieldRect:
+                  serializedVersion: 2
+                  x: 0
+                  y: 0
+                  width: 0
+                  height: 0
+                m_UserData: 0
+                m_IsWaitingForDelay: 0
+                m_IsRenaming: 0
+                m_OriginalEventType: 11
+                m_IsRenamingFilename: 0
+                m_ClientGUIView: {fileID: 0}
+              m_SearchString: 
+            m_MultiColumnHeaderState:
+              m_Columns: []
+              m_VisibleColumns: 
+              m_SortedColumns: 
+            m_VertSplit:
+              ID: 0
+              splitterInitialOffset: 0
+              currentActiveSplitter: 0
+              realSizes: []
+              relativeSizes: []
+              minSizes: []
+              maxSizes: []
+              lastTotalSize: 0
+              splitSize: 0
+              xOffset: 0
+              m_Version: 1
+              oldRealSizes: 
+              oldMinSizes: 
+              oldMaxSizes: 
+              oldSplitSize: 0
+          m_DetailedCallsView:
+            m_SelectedID: 0
+            m_VertSplit:
+              ID: 0
+              splitterInitialOffset: 0
+              currentActiveSplitter: 0
+              realSizes: []
+              relativeSizes: []
+              minSizes: []
+              maxSizes: []
+              lastTotalSize: 0
+              splitSize: 0
+              xOffset: 0
+              m_Version: 1
+              oldRealSizes: 
+              oldMinSizes: 
+              oldMaxSizes: 
+              oldSplitSize: 0
+            m_CalleesTreeView:
+              m_ViewState:
+                scrollPos: {x: 0, y: 0}
+                m_SelectedIDs: 
+                m_LastClickedID: 0
+                m_ExpandedIDs: 
+                m_RenameOverlay:
+                  m_UserAcceptedRename: 0
+                  m_Name: 
+                  m_OriginalName: 
+                  m_EditFieldRect:
+                    serializedVersion: 2
+                    x: 0
+                    y: 0
+                    width: 0
+                    height: 0
+                  m_UserData: 0
+                  m_IsWaitingForDelay: 0
+                  m_IsRenaming: 0
+                  m_OriginalEventType: 11
+                  m_IsRenamingFilename: 0
+                  m_ClientGUIView: {fileID: 0}
+                m_SearchString: 
+              m_ViewHeaderState:
+                m_Columns: []
+                m_VisibleColumns: 
+                m_SortedColumns: 
+            m_CallersTreeView:
+              m_ViewState:
+                scrollPos: {x: 0, y: 0}
+                m_SelectedIDs: 
+                m_LastClickedID: 0
+                m_ExpandedIDs: 
+                m_RenameOverlay:
+                  m_UserAcceptedRename: 0
+                  m_Name: 
+                  m_OriginalName: 
+                  m_EditFieldRect:
+                    serializedVersion: 2
+                    x: 0
+                    y: 0
+                    width: 0
+                    height: 0
+                  m_UserData: 0
+                  m_IsWaitingForDelay: 0
+                  m_IsRenaming: 0
+                  m_OriginalEventType: 11
+                  m_IsRenamingFilename: 0
+                  m_ClientGUIView: {fileID: 0}
+                m_SearchString: 
+              m_ViewHeaderState:
+                m_Columns: []
+                m_VisibleColumns: 
+                m_SortedColumns: 
+          m_ThreadName: Main Thread
+    00000002:
+      type: {class: RenderingProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: Rendering
+        m_IconName: Profiler.Rendering
+        m_ChartCounters:
+        - m_Category: Render
+          m_Name: Batches Count
+        - m_Category: Render
+          m_Name: SetPass Calls Count
+        - m_Category: Render
+          m_Name: Triangles Count
+        - m_Category: Render
+          m_Name: Vertices Count
+        m_DetailCounters: []
+        m_ChartType: 1
+        m_PaneScroll: {x: 0, y: 0}
+    00000003:
+      type: {class: MemoryProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: Memory
+        m_IconName: Profiler.Memory
+        m_ChartCounters:
+        - m_Category: Memory
+          m_Name: Total Used Memory
+        - m_Category: Memory
+          m_Name: Texture Memory
+        - m_Category: Memory
+          m_Name: Mesh Memory
+        - m_Category: Memory
+          m_Name: Material Count
+        - m_Category: Memory
+          m_Name: Object Count
+        - m_Category: Memory
+          m_Name: GC Used Memory
+        - m_Category: Memory
+          m_Name: GC Allocated In Frame
+        m_DetailCounters: []
+        m_ChartType: 1
+        m_PaneScroll: {x: 0, y: 0}
+        m_ViewSplit:
+          ID: 0
+          splitterInitialOffset: 0
+          currentActiveSplitter: -1
+          realSizes:
+          - 0
+          - 0
+          relativeSizes:
+          - 0.7
+          - 0.3
+          minSizes:
+          - 450
+          - 50
+          maxSizes:
+          - 0
+          - 0
+          lastTotalSize: 0
+          splitSize: 6
+          xOffset: 0
+          m_Version: 1
+          oldRealSizes: 
+          oldMinSizes: 
+          oldMaxSizes: 
+          oldSplitSize: 0
+    00000004:
+      type: {class: AudioProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: Audio
+        m_IconName: Profiler.Audio
+        m_ChartCounters:
+        - m_Category: NoCategory
+          m_Name: Playing Audio Sources
+        - m_Category: NoCategory
+          m_Name: Audio Voices
+        - m_Category: NoCategory
+          m_Name: Total Audio CPU
+        - m_Category: NoCategory
+          m_Name: Total Audio Memory
+        m_DetailCounters: []
+        m_ChartType: 1
+        m_PaneScroll: {x: 0, y: 0}
+        m_ShowInactiveDSPChains: 0
+        m_HighlightAudibleDSPChains: 1
+        m_DSPGraphZoomFactor: 1
+    00000005:
+      type: {class: VideoProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: Video
+        m_IconName: Profiler.Video
+        m_ChartCounters:
+        - m_Category: NoCategory
+          m_Name: Total Video Sources
+        - m_Category: NoCategory
+          m_Name: Playing Video Sources
+        - m_Category: NoCategory
+          m_Name: Pre-buffered frames
+        - m_Category: NoCategory
+          m_Name: Total Video Memory
+        m_DetailCounters: []
+        m_ChartType: 1
+        m_PaneScroll: {x: 0, y: 0}
+    00000006:
+      type: {class: PhysicsProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: Physics
+        m_IconName: Profiler.Physics
+        m_ChartCounters:
+        - m_Category: NoCategory
+          m_Name: Active Dynamic
+        - m_Category: NoCategory
+          m_Name: Active Kinematic
+        - m_Category: NoCategory
+          m_Name: Static Colliders
+        - m_Category: NoCategory
+          m_Name: Rigidbody
+        - m_Category: NoCategory
+          m_Name: Trigger Overlaps
+        - m_Category: NoCategory
+          m_Name: Active Constraints
+        - m_Category: NoCategory
+          m_Name: Contacts
+        m_DetailCounters: []
+        m_ChartType: 1
+        m_PaneScroll: {x: 0, y: 0}
+    00000007:
+      type: {class: Physics2DProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: Physics (2D)
+        m_IconName: Profiler.Physics2D
+        m_ChartCounters:
+        - m_Category: NoCategory
+          m_Name: Total Bodies
+        - m_Category: NoCategory
+          m_Name: Active Bodies
+        - m_Category: NoCategory
+          m_Name: Sleeping Bodies
+        - m_Category: NoCategory
+          m_Name: Dynamic Bodies
+        - m_Category: NoCategory
+          m_Name: Kinematic Bodies
+        - m_Category: NoCategory
+          m_Name: Static Bodies
+        - m_Category: NoCategory
+          m_Name: Contacts
+        - m_Category: NoCategory
+          m_Name: Discrete Island Count
+        - m_Category: NoCategory
+          m_Name: Continuous Island Count
+        m_DetailCounters: []
+        m_ChartType: 1
+        m_PaneScroll: {x: 0, y: 0}
+    00000008:
+      type: {class: NetworkingMessagesProfilerModule, ns: UnityEditorInternal.Profiling,
+        asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: Network Messages
+        m_IconName: Profiler.NetworkMessages
+        m_ChartCounters:
+        - m_Category: NoCategory
+          m_Name: Protocol Packets In
+        - m_Category: NoCategory
+          m_Name: Buffered Msgs In
+        - m_Category: NoCategory
+          m_Name: Unbuffered Msgs In
+        - m_Category: NoCategory
+          m_Name: Protocol Packets Out
+        - m_Category: NoCategory
+          m_Name: Buffered Msgs Out
+        - m_Category: NoCategory
+          m_Name: Unbuffered Msgs Out
+        - m_Category: NoCategory
+          m_Name: Pending Buffers
+        m_DetailCounters: []
+        m_ChartType: 1
+        m_PaneScroll: {x: 0, y: 0}
+    00000009:
+      type: {class: NetworkingOperationsProfilerModule, ns: UnityEditorInternal.Profiling,
+        asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: Network Operations
+        m_IconName: Profiler.NetworkOperations
+        m_ChartCounters:
+        - m_Category: NoCategory
+          m_Name: Command
+        - m_Category: NoCategory
+          m_Name: ClientRPC
+        - m_Category: NoCategory
+          m_Name: SyncVar
+        - m_Category: NoCategory
+          m_Name: Sync List
+        - m_Category: NoCategory
+          m_Name: Sync Event
+        - m_Category: NoCategory
+          m_Name: User Message
+        - m_Category: NoCategory
+          m_Name: Object Destroy
+        - m_Category: NoCategory
+          m_Name: Object Create
+        m_DetailCounters: []
+        m_ChartType: 1
+        m_PaneScroll: {x: 0, y: 0}
+        m_NetworkSplit:
+          ID: 0
+          splitterInitialOffset: 0
+          currentActiveSplitter: -1
+          realSizes:
+          - 0
+          - 0
+          relativeSizes:
+          - 0.2
+          - 0.8
+          minSizes:
+          - 100
+          - 100
+          maxSizes:
+          - 0
+          - 0
+          lastTotalSize: 0
+          splitSize: 6
+          xOffset: 0
+          m_Version: 1
+          oldRealSizes: 
+          oldMinSizes: 
+          oldMaxSizes: 
+          oldSplitSize: 0
+        msgNames:
+        - UserMessage
+        - ObjectDestroy
+        - ClientRpc
+        - ObjectSpawn
+        - Owner
+        - Command
+        - LocalPlayerTransform
+        - SyncEvent
+        - SyncVars
+        - SyncList
+        - ObjectSpawnScene
+        - NetworkInfo
+        - SpawnFinished
+        - ObjectHide
+        - CRC
+        - ClientAuthority
+    0000000A:
+      type: {class: UIProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: UI
+        m_IconName: Profiler.UI
+        m_ChartCounters:
+        - m_Category: NoCategory
+          m_Name: Layout
+        - m_Category: NoCategory
+          m_Name: Render
+        m_DetailCounters: []
+        m_ChartType: 0
+        m_PaneScroll: {x: 0, y: 0}
+    0000000B:
+      type: {class: UIDetailsProfilerModule, ns: UnityEditorInternal.Profiling, asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: UI Details
+        m_IconName: Profiler.UIDetails
+        m_ChartCounters:
+        - m_Category: NoCategory
+          m_Name: Batches
+        - m_Category: NoCategory
+          m_Name: Vertices
+        m_DetailCounters: []
+        m_ChartType: 1
+        m_PaneScroll: {x: 0, y: 0}
+    0000000C:
+      type: {class: GlobalIlluminationProfilerModule, ns: UnityEditorInternal.Profiling,
+        asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: Global Illumination
+        m_IconName: Profiler.GlobalIllumination
+        m_ChartCounters:
+        - m_Category: NoCategory
+          m_Name: Total CPU
+        - m_Category: NoCategory
+          m_Name: Light Probe
+        - m_Category: NoCategory
+          m_Name: Setup
+        - m_Category: NoCategory
+          m_Name: Environment
+        - m_Category: NoCategory
+          m_Name: Input Lighting
+        - m_Category: NoCategory
+          m_Name: Systems
+        - m_Category: NoCategory
+          m_Name: Solve Tasks
+        - m_Category: NoCategory
+          m_Name: Dynamic Objects
+        - m_Category: NoCategory
+          m_Name: Other Commands
+        - m_Category: NoCategory
+          m_Name: Blocked Command Write
+        m_DetailCounters: []
+        m_ChartType: 0
+        m_PaneScroll: {x: 0, y: 0}
+    0000000D:
+      type: {class: VirtualTexturingProfilerModule, ns: UnityEditorInternal.Profiling,
+        asm: UnityEditor.CoreModule}
+      data:
+        m_ProfilerWindow:
+          id: 14
+        m_Name: Virtual Texturing
+        m_IconName: Profiler.VirtualTexturing
+        m_ChartCounters:
+        - m_Category: Virtual Texturing
+          m_Name: Required Tiles
+        - m_Category: Virtual Texturing
+          m_Name: Max Cache Mip Bias
+        - m_Category: Virtual Texturing
+          m_Name: Max Cache Demand
+        - m_Category: Virtual Texturing
+          m_Name: Missing Streaming Tiles
+        - m_Category: Virtual Texturing
+          m_Name: Missing Disk Data
+        m_DetailCounters:
+        - m_Category: Virtual Texturing
+          m_Name: Max Cache Mip Bias
+        m_ChartType: 1
+        m_PaneScroll: {x: 0, y: 0}
+        m_VTProfilerView:
+          m_ScrollAggregate: {x: 0, y: 0}
+          m_ScrollDemand: {x: 0, y: 0}
+          m_ScrollBias: {x: 0, y: 0}
+    0000000E:
+      type: {class: ProfilerWindow/ProfilerWindowControllerProxy, ns: UnityEditor,
+        asm: UnityEditor.CoreModule}
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 711
+    width: 1024
+    height: 328
+  m_ViewDataDictionary: {fileID: 0}
+  m_Spl:
+    ID: 159
+    splitterInitialOffset: 333
+    currentActiveSplitter: -1
+    realSizes:
+    - 346
+    - 678
+    relativeSizes:
+    - 0.33805668
+    - 0.6619433
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 1024
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 5a010000a6020000
+    oldMinSizes: 2000000020000000
+    oldMaxSizes: 0000000000000000
+    oldSplitSize: 6
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 16}
+    newResultList:
+    - id: 1099
+      uniqueId: '[Prespective][suite]'
+      name: Prespective
+      fullName: Prespective
+      resultStatus: 1
+      duration: 14.277872
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1007
+      uniqueId: '[ApaUnitTestBuild.dll][suite]'
+      name: ApaUnitTestBuild.dll
+      fullName: D:/Thijs/Git/Prespective/Prespective/Library/ScriptAssemblies/ApaUnitTestBuild.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Prespective][suite]'
+    - id: 1008
+      uniqueId: ApaUnitTestBuild.dll/[u040][suite]
+      name: u040
+      fullName: u040
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: '[ApaUnitTestBuild.dll][suite]'
+    - id: 1009
+      uniqueId: ApaUnitTestBuild.dll/u040/[prespective][suite]
+      name: prespective
+      fullName: u040.prespective
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: ApaUnitTestBuild.dll/[u040][suite]
+    - id: 1010
+      uniqueId: ApaUnitTestBuild.dll/u040/prespective/[ApaUnitTestBuild][u040.prespective.prepair][suite]
+      name: prepair
+      fullName: u040.prespective.prepair
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: ApaUnitTestBuild.dll/u040/[prespective][suite]
+    - id: 1001
+      uniqueId: ApaUnitTestBuild.dll/u040/prespective/prepair/[ApaUnitTestBuild][u040.prespective.prepair.FabrikSolverUnitTest][suite]
+      name: FabrikSolverUnitTest
+      fullName: u040.prespective.prepair.FabrikSolverUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: ApaUnitTestBuild.dll/u040/prespective/[ApaUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1004
+      uniqueId: ApaUnitTestBuild.dll/u040/prespective/prepair/FabrikSolverUnitTest/[ApaUnitTestBuild][u040.prespective.prepair.FabrikSolverUnitTest.BaseWheelJointAndArmDirection]
+      name: BaseWheelJointAndArmDirection
+      fullName: u040.prespective.prepair.FabrikSolverUnitTest.BaseWheelJointAndArmDirection
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: ApaUnitTestBuild.dll/u040/prespective/prepair/[ApaUnitTestBuild][u040.prespective.prepair.FabrikSolverUnitTest][suite]
+    - id: 1003
+      uniqueId: ApaUnitTestBuild.dll/u040/prespective/prepair/FabrikSolverUnitTest/[ApaUnitTestBuild][u040.prespective.prepair.FabrikSolverUnitTest.LimitedWheelJoint]
+      name: LimitedWheelJoint
+      fullName: u040.prespective.prepair.FabrikSolverUnitTest.LimitedWheelJoint
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: ApaUnitTestBuild.dll/u040/prespective/prepair/[ApaUnitTestBuild][u040.prespective.prepair.FabrikSolverUnitTest][suite]
+    - id: 1006
+      uniqueId: ApaUnitTestBuild.dll/u040/prespective/prepair/FabrikSolverUnitTest/[ApaUnitTestBuild][u040.prespective.prepair.FabrikSolverUnitTest.PrismaticToWheelJoint]
+      name: PrismaticToWheelJoint
+      fullName: u040.prespective.prepair.FabrikSolverUnitTest.PrismaticToWheelJoint
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: ApaUnitTestBuild.dll/u040/prespective/prepair/[ApaUnitTestBuild][u040.prespective.prepair.FabrikSolverUnitTest][suite]
+    - id: 1005
+      uniqueId: ApaUnitTestBuild.dll/u040/prespective/prepair/FabrikSolverUnitTest/[ApaUnitTestBuild][u040.prespective.prepair.FabrikSolverUnitTest.SLURBTconfiguration]
+      name: SLURBTconfiguration
+      fullName: u040.prespective.prepair.FabrikSolverUnitTest.SLURBTconfiguration
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: ApaUnitTestBuild.dll/u040/prespective/prepair/[ApaUnitTestBuild][u040.prespective.prepair.FabrikSolverUnitTest][suite]
+    - id: 1002
+      uniqueId: ApaUnitTestBuild.dll/u040/prespective/prepair/FabrikSolverUnitTest/[ApaUnitTestBuild][u040.prespective.prepair.FabrikSolverUnitTest.SuccessiveConstrainedPJs]
+      name: SuccessiveConstrainedPJs
+      fullName: u040.prespective.prepair.FabrikSolverUnitTest.SuccessiveConstrainedPJs
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: ApaUnitTestBuild.dll/u040/prespective/prepair/[ApaUnitTestBuild][u040.prespective.prepair.FabrikSolverUnitTest][suite]
+    - id: 1127
+      uniqueId: '[PrelogicUnitTestBuild.dll][suite]'
+      name: PrelogicUnitTestBuild.dll
+      fullName: D:/Thijs/Git/Prespective/Prespective/Library/ScriptAssemblies/PrelogicUnitTestBuild.dll
+      resultStatus: 1
+      duration: 14.196417
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1099
+      parentUniqueId: '[Prespective][suite]'
+    - id: 1128
+      uniqueId: PrelogicUnitTestBuild.dll/[u040][suite]
+      name: u040
+      fullName: u040
+      resultStatus: 1
+      duration: 14.171376
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1127
+      parentUniqueId: '[PrelogicUnitTestBuild.dll][suite]'
+    - id: 1129
+      uniqueId: PrelogicUnitTestBuild.dll/u040/[prespective][suite]
+      name: prespective
+      fullName: u040.prespective
+      resultStatus: 1
+      duration: 14.151296
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1128
+      parentUniqueId: PrelogicUnitTestBuild.dll/[u040][suite]
+    - id: 1130
+      uniqueId: PrelogicUnitTestBuild.dll/u040/prespective/[PrelogicUnitTestBuild][u040.prespective.prelogic][suite]
+      name: prelogic
+      fullName: u040.prespective.prelogic
+      resultStatus: 1
+      duration: 14.129934
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1129
+      parentUniqueId: PrelogicUnitTestBuild.dll/u040/[prespective][suite]
+    - id: 1121
+      uniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/[PrelogicUnitTestBuild][u040.prespective.prelogic.ADSUnitTest][suite]
+      name: ADSUnitTest
+      fullName: u040.prespective.prelogic.ADSUnitTest
+      resultStatus: 1
+      duration: 20.067652
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1130
+      parentUniqueId: PrelogicUnitTestBuild.dll/u040/prespective/[PrelogicUnitTestBuild][u040.prespective.prelogic][suite]
+    - id: 1122
+      uniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/ADSUnitTest/[PrelogicUnitTestBuild][u040.prespective.prelogic.ADSUnitTest.ADSUnitTestWithEnumeratorPasses]
+      name: ADSUnitTestWithEnumeratorPasses
+      fullName: u040.prespective.prelogic.ADSUnitTest.ADSUnitTestWithEnumeratorPasses
+      resultStatus: 1
+      duration: 20.035337
+      messages: 
+      output: 'Continue
+
+        All went well
+
+        Callback : Policy Ready
+
+        Callback
+        : Stream Ready
+
+        ISSUES CALLBACK: state: ''LIFECYCLE_ISSUE'' errors:
+        ''[''Lifecycle management is not yet implemented for ADS'']''
+
+        Callback
+        : Lifecycle Ready
+
+        Localwarnings False remote warnings False
+
+        Callback
+        : Adapters Ready
+
+        Callback : Application Ready
+
+        Callback
+        : Application Started
+
+        Done (re)starting the client application
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1121
+      parentUniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/[PrelogicUnitTestBuild][u040.prespective.prelogic.ADSUnitTest][suite]
+    - id: 1014
+      uniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/[PrelogicUnitTestBuild][u040.prespective.prelogic.FMUUnitTests][suite]
+      name: FMUUnitTests
+      fullName: u040.prespective.prelogic.FMUUnitTests
+      resultStatus: 1
+      duration: 14.108889
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: PrelogicUnitTestBuild.dll/u040/prespective/[PrelogicUnitTestBuild][u040.prespective.prelogic][suite]
+    - id: 1007
+      uniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/FMUUnitTests/[PrelogicUnitTestBuild][u040.prespective.prelogic.FMUUnitTests.PrelogicFMUCoSimTest][suite]
+      name: PrelogicFMUCoSimTest
+      fullName: u040.prespective.prelogic.FMUUnitTests.PrelogicFMUCoSimTest
+      resultStatus: 1
+      duration: 7.843272
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/[PrelogicUnitTestBuild][u040.prespective.prelogic.FMUUnitTests][suite]
+    - id: 1008
+      uniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/FMUUnitTests/PrelogicFMUCoSimTest/[PrelogicUnitTestBuild][u040.prespective.prelogic.FMUUnitTests.PrelogicFMUCoSimTest.FMUCoSimUnitTestCreation]
+      name: FMUCoSimUnitTestCreation
+      fullName: u040.prespective.prelogic.FMUUnitTests.PrelogicFMUCoSimTest.FMUCoSimUnitTestCreation
+      resultStatus: 1
+      duration: 7.794345
+      messages: 
+      output: 'Creating FMU unit test
+
+        FMU Simulation Created in: 14 milliseconds.
+
+        simulator
+        created
+
+        First frame tests
+
+        Next test after 2 seconds.
+
+        Current
+        Framerate: 50
+
+        Next test after 4 seconds.
+
+        Current Framerate:
+        50
+
+        Simulation Finished.
+
+        Final Test if experiment ended.
+
+        Test
+        Completed.
+
+        Final Framerate: 50
+
+        Elapsed Time: 6.1586213
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/FMUUnitTests/[PrelogicUnitTestBuild][u040.prespective.prelogic.FMUUnitTests.PrelogicFMUCoSimTest][suite]
+    - id: 1007
+      uniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/FMUUnitTests/[PrelogicUnitTestBuild][u040.prespective.prelogic.FMUUnitTests.PrelogicFMUMETest][suite]
+      name: PrelogicFMUMETest
+      fullName: u040.prespective.prelogic.FMUUnitTests.PrelogicFMUMETest
+      resultStatus: 1
+      duration: 6.243174
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1013
+      parentUniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/[PrelogicUnitTestBuild][u040.prespective.prelogic.FMUUnitTests][suite]
+    - id: 1008
+      uniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/FMUUnitTests/PrelogicFMUMETest/[PrelogicUnitTestBuild][u040.prespective.prelogic.FMUUnitTests.PrelogicFMUMETest.FMUMEUnitTestCreation]
+      name: FMUMEUnitTestCreation
+      fullName: u040.prespective.prelogic.FMUUnitTests.PrelogicFMUMETest.FMUMEUnitTestCreation
+      resultStatus: 1
+      duration: 6.220091
+      messages: 
+      output: 'Creating FMU unit test
+
+        FMU Simulation Created in: 0 milliseconds.
+
+        simulator
+        created
+
+        Warning: Changing the tolerance on Model Exchange may cause
+        unexpected behavior
+
+        First frame tests
+
+        Position Value: 12.55874
+
+        Velocity
+        Value: 13.2342
+
+        Next test after 2 seconds.
+
+        Position Value:
+        19.47562
+
+        Velocity Value: -6.582
+
+        Current Framerate: 50
+
+        Next
+        test after 4 seconds.
+
+        Position Value: 0
+
+        Not testing Velocity
+        due to ME FMU file bug
+
+        Current Framerate: 50
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Simulation Finished.
+
+        Simulation Finished.
+
+        Simulation
+        Finished.
+
+        Next test after 6 seconds.
+
+        Position Value: 0.11842
+
+        Not
+        testing Velocity due to ME FMU file bug
+
+        Test Completed.
+
+        Final
+        Framerate: 50
+
+        Elapsed Time: 6.059211
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/FMUUnitTests/[PrelogicUnitTestBuild][u040.prespective.prelogic.FMUUnitTests.PrelogicFMUMETest][suite]
+    - id: 1123
+      uniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/[PrelogicUnitTestBuild][u040.prespective.prelogic.OpcUaUnitTest][suite]
+      name: OpcUaUnitTest
+      fullName: u040.prespective.prelogic.OpcUaUnitTest
+      resultStatus: 2
+      duration: 0.2083595
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1130
+      parentUniqueId: PrelogicUnitTestBuild.dll/u040/prespective/[PrelogicUnitTestBuild][u040.prespective.prelogic][suite]
+    - id: 1124
+      uniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/OpcUaUnitTest/[PrelogicUnitTestBuild][u040.prespective.prelogic.OpcUaUnitTest.OPCUATIAUnitTestWithEnumeratorPasses]
+      name: OPCUATIAUnitTestWithEnumeratorPasses
+      fullName: u040.prespective.prelogic.OpcUaUnitTest.OPCUATIAUnitTestWithEnumeratorPasses
+      resultStatus: 2
+      duration: 0.1724274
+      messages: "SetUp :   Type of test is null\r\n  Expected: not null\r\n  But
+        was:  null\r\n"
+      output: 'Continue
+
+        The referenced script (Unknown) on this Behaviour
+        is missing!
+
+        The referenced script on this Behaviour (Game Object
+        ''OPCUAUnitTest'') is missing!
+
+        The referenced script (Unknown) on
+        this Behaviour is missing!
+
+        The referenced script on this Behaviour
+        (Game Object ''OPCUAUnitTest'') is missing!
+
+        The referenced script
+        on this Behaviour (Game Object ''OPCUAUnitTest'') is missing!
+
+'
+      stacktrace: 'at u040.prespective.prelogic.PreLogicAdapterUnitTest.ContinueSetup
+        (System.String _prefabName) [0x00051] in D:\Thijs\Git\Prespective\Prespective\Assets\prespective\prespectiveunittests\PrelogicUnitTestBuild\PreLogicAdapterUnitTest.cs:64
+
+        at
+        u040.prespective.prelogic.OpcUaUnitTest.OnSetUp () [0x00001] in D:\Thijs\Git\Prespective\Prespective\Assets\prespective\prespectiveunittests\PrelogicUnitTestBuild\Adapters\OpcUaUnitTest.cs:64
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1123
+      parentUniqueId: PrelogicUnitTestBuild.dll/u040/prespective/prelogic/[PrelogicUnitTestBuild][u040.prespective.prelogic.OpcUaUnitTest][suite]
+    - id: 1041
+      uniqueId: '[PrepairUnitTestBuild.dll][suite]'
+      name: PrepairUnitTestBuild.dll
+      fullName: D:/Thijs/Git/Prespective/Prespective/Library/ScriptAssemblies/PrepairUnitTestBuild.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Prespective][suite]'
+    - id: 1042
+      uniqueId: PrepairUnitTestBuild.dll/[u040][suite]
+      name: u040
+      fullName: u040
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1041
+      parentUniqueId: '[PrepairUnitTestBuild.dll][suite]'
+    - id: 1043
+      uniqueId: PrepairUnitTestBuild.dll/u040/[prespective][suite]
+      name: prespective
+      fullName: u040.prespective
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1042
+      parentUniqueId: PrepairUnitTestBuild.dll/[u040][suite]
+    - id: 1044
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+      name: prepair
+      fullName: u040.prespective.prepair
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1043
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/[prespective][suite]
+    - id: 1014
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.ComplexJointUnitTest][suite]
+      name: ComplexJointUnitTest
+      fullName: u040.prespective.prepair.ComplexJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1015
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/ComplexJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.ComplexJointUnitTest.ComplexJointTest]
+      name: ComplexJointTest
+      fullName: u040.prespective.prepair.ComplexJointUnitTest.ComplexJointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.ComplexJointUnitTest][suite]
+    - id: 1016
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomComplexJointUnitTest][suite]
+      name: CustomComplexJointUnitTest
+      fullName: u040.prespective.prepair.CustomComplexJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1017
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/CustomComplexJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.CustomComplexJointUnitTest.ComplexJointTest]
+      name: ComplexJointTest
+      fullName: u040.prespective.prepair.CustomComplexJointUnitTest.ComplexJointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomComplexJointUnitTest][suite]
+    - id: 1018
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomCylindricalJointUnitTest][suite]
+      name: CustomCylindricalJointUnitTest
+      fullName: u040.prespective.prepair.CustomCylindricalJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1019
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/CustomCylindricalJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.CustomCylindricalJointUnitTest.CylindricalTest]
+      name: CylindricalTest
+      fullName: u040.prespective.prepair.CustomCylindricalJointUnitTest.CylindricalTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomCylindricalJointUnitTest][suite]
+    - id: 1020
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomGyroscopicUnitTest][suite]
+      name: CustomGyroscopicUnitTest
+      fullName: u040.prespective.prepair.CustomGyroscopicUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1021
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/CustomGyroscopicUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.CustomGyroscopicUnitTest.GyroscopicJointTest]
+      name: GyroscopicJointTest
+      fullName: u040.prespective.prepair.CustomGyroscopicUnitTest.GyroscopicJointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1020
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomGyroscopicUnitTest][suite]
+    - id: 1022
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomHelicalJointUnitTest][suite]
+      name: CustomHelicalJointUnitTest
+      fullName: u040.prespective.prepair.CustomHelicalJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1023
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/CustomHelicalJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.CustomHelicalJointUnitTest.HelicalTest]
+      name: HelicalTest
+      fullName: u040.prespective.prepair.CustomHelicalJointUnitTest.HelicalTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomHelicalJointUnitTest][suite]
+    - id: 1024
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomPrismaticJointUnitTest][suite]
+      name: CustomPrismaticJointUnitTest
+      fullName: u040.prespective.prepair.CustomPrismaticJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1025
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/CustomPrismaticJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.CustomPrismaticJointUnitTest.PrismaticTest]
+      name: PrismaticTest
+      fullName: u040.prespective.prepair.CustomPrismaticJointUnitTest.PrismaticTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomPrismaticJointUnitTest][suite]
+    - id: 1026
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomTransferJointUnitTest][suite]
+      name: CustomTransferJointUnitTest
+      fullName: u040.prespective.prepair.CustomTransferJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1028
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/CustomTransferJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.CustomTransferJointUnitTest.FixedTransferJointTest]
+      name: FixedTransferJointTest
+      fullName: u040.prespective.prepair.CustomTransferJointUnitTest.FixedTransferJointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomTransferJointUnitTest][suite]
+    - id: 1027
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/CustomTransferJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.CustomTransferJointUnitTest.TransferJointTest]
+      name: TransferJointTest
+      fullName: u040.prespective.prepair.CustomTransferJointUnitTest.TransferJointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.CustomTransferJointUnitTest][suite]
+    - id: 1029
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.FixedTransferJointUnitTest][suite]
+      name: FixedTransferJointUnitTest
+      fullName: u040.prespective.prepair.FixedTransferJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1030
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/FixedTransferJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.FixedTransferJointUnitTest.FixedTransferJointTest]
+      name: FixedTransferJointTest
+      fullName: u040.prespective.prepair.FixedTransferJointUnitTest.FixedTransferJointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1029
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.FixedTransferJointUnitTest][suite]
+    - id: 1031
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.GyroscopicJointUnitTest][suite]
+      name: GyroscopicJointUnitTest
+      fullName: u040.prespective.prepair.GyroscopicJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1032
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/GyroscopicJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.GyroscopicJointUnitTest.GyroscopicJointTest]
+      name: GyroscopicJointTest
+      fullName: u040.prespective.prepair.GyroscopicJointUnitTest.GyroscopicJointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1031
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.GyroscopicJointUnitTest][suite]
+    - id: 1033
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.HelicalJointUnitTest][suite]
+      name: HelicalJointUnitTest
+      fullName: u040.prespective.prepair.HelicalJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1034
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/HelicalJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.HelicalJointUnitTest.HelicalTest]
+      name: HelicalTest
+      fullName: u040.prespective.prepair.HelicalJointUnitTest.HelicalTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1033
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.HelicalJointUnitTest][suite]
+    - id: 1035
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.PhysicsManagerUnitTest][suite]
+      name: PhysicsManagerUnitTest
+      fullName: u040.prespective.prepair.PhysicsManagerUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1046
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1036
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/PhysicsManagerUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.PhysicsManagerUnitTest.PhysicManagerTest]
+      name: PhysicManagerTest
+      fullName: u040.prespective.prepair.PhysicsManagerUnitTest.PhysicManagerTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1035
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.PhysicsManagerUnitTest][suite]
+    - id: 1035
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.PrismaticJointUnitTest][suite]
+      name: PrismaticJointUnitTest
+      fullName: u040.prespective.prepair.PrismaticJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1036
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/PrismaticJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.PrismaticJointUnitTest.PrismaticJointTest]
+      name: PrismaticJointTest
+      fullName: u040.prespective.prepair.PrismaticJointUnitTest.PrismaticJointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1035
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.PrismaticJointUnitTest][suite]
+    - id: 1037
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.TransferJointUnitTest][suite]
+      name: TransferJointUnitTest
+      fullName: u040.prespective.prepair.TransferJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1038
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/TransferJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.TransferJointUnitTest.TransferJointTest]
+      name: TransferJointTest
+      fullName: u040.prespective.prepair.TransferJointUnitTest.TransferJointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1037
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.TransferJointUnitTest][suite]
+    - id: 1039
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.WheelJointUnitTest][suite]
+      name: WheelJointUnitTest
+      fullName: u040.prespective.prepair.WheelJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/[PrepairUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1040
+      uniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/WheelJointUnitTest/[PrepairUnitTestBuild][u040.prespective.prepair.WheelJointUnitTest.WheelJointTest]
+      name: WheelJointTest
+      fullName: u040.prespective.prepair.WheelJointUnitTest.WheelJointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1039
+      parentUniqueId: PrepairUnitTestBuild.dll/u040/prespective/prepair/[PrepairUnitTestBuild][u040.prespective.prepair.WheelJointUnitTest][suite]
+    - id: 1160
+      uniqueId: '[PrescriptedUnitTestBuild.dll][suite]'
+      name: PrescriptedUnitTestBuild.dll
+      fullName: D:/Thijs/Git/Prespective/Prespective/Library/ScriptAssemblies/PrescriptedUnitTestBuild.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1099
+      parentUniqueId: '[Prespective][suite]'
+    - id: 1161
+      uniqueId: PrescriptedUnitTestBuild.dll/[u040][suite]
+      name: u040
+      fullName: u040
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1160
+      parentUniqueId: '[PrescriptedUnitTestBuild.dll][suite]'
+    - id: 1162
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/[prespective][suite]
+      name: prespective
+      fullName: u040.prespective
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1161
+      parentUniqueId: PrescriptedUnitTestBuild.dll/[u040][suite]
+    - id: 1163
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/[PrescriptedUnitTestBuild][u040.prespective.prescripted][suite]
+      name: prescripted
+      fullName: u040.prespective.prescripted
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1162
+      parentUniqueId: PrescriptedUnitTestBuild.dll/u040/[prespective][suite]
+    - id: 1150
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESActorActorUnitTest][suite]
+      name: DESActorActorUnitTest
+      fullName: u040.prespective.prescripted.DESActorActorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1163
+      parentUniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/[PrescriptedUnitTestBuild][u040.prespective.prescripted][suite]
+    - id: 1151
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/DESActorActorUnitTest/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESActorActorUnitTest.ActorActorTest]
+      name: ActorActorTest
+      fullName: u040.prespective.prescripted.DESActorActorUnitTest.ActorActorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1150
+      parentUniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESActorActorUnitTest][suite]
+    - id: 1152
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESActorCueUnitTest][suite]
+      name: DESActorCueUnitTest
+      fullName: u040.prespective.prescripted.DESActorCueUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1163
+      parentUniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/[PrescriptedUnitTestBuild][u040.prespective.prescripted][suite]
+    - id: 1153
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/DESActorCueUnitTest/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESActorCueUnitTest.ActorCueTest]
+      name: ActorCueTest
+      fullName: u040.prespective.prescripted.DESActorCueUnitTest.ActorCueTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1152
+      parentUniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESActorCueUnitTest][suite]
+    - id: 1154
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESActorMutlipleCueRingUnitTest][suite]
+      name: DESActorMutlipleCueRingUnitTest
+      fullName: u040.prespective.prescripted.DESActorMutlipleCueRingUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1163
+      parentUniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/[PrescriptedUnitTestBuild][u040.prespective.prescripted][suite]
+    - id: 1155
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/DESActorMutlipleCueRingUnitTest/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESActorMutlipleCueRingUnitTest.ActorMultiCueTest]
+      name: ActorMultiCueTest
+      fullName: u040.prespective.prescripted.DESActorMutlipleCueRingUnitTest.ActorMultiCueTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1154
+      parentUniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESActorMutlipleCueRingUnitTest][suite]
+    - id: 1156
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESDeterminismeUnitTest][suite]
+      name: DESDeterminismeUnitTest
+      fullName: u040.prespective.prescripted.DESDeterminismeUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1163
+      parentUniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/[PrescriptedUnitTestBuild][u040.prespective.prescripted][suite]
+    - id: 1157
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/DESDeterminismeUnitTest/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESDeterminismeUnitTest.DeterminismTest]
+      name: DeterminismTest
+      fullName: u040.prespective.prescripted.DESDeterminismeUnitTest.DeterminismTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1156
+      parentUniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESDeterminismeUnitTest][suite]
+    - id: 1158
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESMotionTypeUnitTest][suite]
+      name: DESMotionTypeUnitTest
+      fullName: u040.prespective.prescripted.DESMotionTypeUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1163
+      parentUniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/[PrescriptedUnitTestBuild][u040.prespective.prescripted][suite]
+    - id: 1159
+      uniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/DESMotionTypeUnitTest/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESMotionTypeUnitTest.MotionTypeTest]
+      name: MotionTypeTest
+      fullName: u040.prespective.prescripted.DESMotionTypeUnitTest.MotionTypeTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1158
+      parentUniqueId: PrescriptedUnitTestBuild.dll/u040/prespective/prescripted/[PrescriptedUnitTestBuild][u040.prespective.prescripted.DESMotionTypeUnitTest][suite]
+    - id: 1190
+      uniqueId: '[StandardComponentsUnitTestBuild.dll][suite]'
+      name: StandardComponentsUnitTestBuild.dll
+      fullName: D:/Thijs/Git/Prespective/Prespective/Library/ScriptAssemblies/StandardComponentsUnitTestBuild.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1099
+      parentUniqueId: '[Prespective][suite]'
+    - id: 1191
+      uniqueId: StandardComponentsUnitTestBuild.dll/[u040][suite]
+      name: u040
+      fullName: u040
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1190
+      parentUniqueId: '[StandardComponentsUnitTestBuild.dll][suite]'
+    - id: 1192
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/[prespective][suite]
+      name: prespective
+      fullName: u040.prespective
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1191
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/[u040][suite]
+    - id: 1193
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+      name: prepair
+      fullName: u040.prespective.prepair
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1192
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/[prespective][suite]
+    - id: 1164
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.BeamSystemUnitTest][suite]
+      name: BeamSystemUnitTest
+      fullName: u040.prespective.prepair.BeamSystemUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1165
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/BeamSystemUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.BeamSystemUnitTest.RunBeamSystemTest]
+      name: RunBeamSystemTest
+      fullName: u040.prespective.prepair.BeamSystemUnitTest.RunBeamSystemTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1164
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.BeamSystemUnitTest][suite]
+    - id: 1166
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ColorDetectorUnitTest][suite]
+      name: ColorDetectorUnitTest
+      fullName: u040.prespective.prepair.ColorDetectorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1167
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/ColorDetectorUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ColorDetectorUnitTest.RunColorDetectorTest]
+      name: RunColorDetectorTest
+      fullName: u040.prespective.prepair.ColorDetectorUnitTest.RunColorDetectorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1166
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ColorDetectorUnitTest][suite]
+    - id: 1168
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ColorSensorUnitTest][suite]
+      name: ColorSensorUnitTest
+      fullName: u040.prespective.prepair.ColorSensorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1169
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/ColorSensorUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ColorSensorUnitTest.RunColorSensorTest]
+      name: RunColorSensorTest
+      fullName: u040.prespective.prepair.ColorSensorUnitTest.RunColorSensorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1168
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ColorSensorUnitTest][suite]
+    - id: 1170
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ContinuousServoMotorUnitTest][suite]
+      name: ContinuousServoMotorUnitTest
+      fullName: u040.prespective.prepair.ContinuousServoMotorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1171
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/ContinuousServoMotorUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ContinuousServoMotorUnitTest.RunContinuousServoMotorTest]
+      name: RunContinuousServoMotorTest
+      fullName: u040.prespective.prepair.ContinuousServoMotorUnitTest.RunContinuousServoMotorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1170
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ContinuousServoMotorUnitTest][suite]
+    - id: 1172
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ContrastSensorUnitTest][suite]
+      name: ContrastSensorUnitTest
+      fullName: u040.prespective.prepair.ContrastSensorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1173
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/ContrastSensorUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ContrastSensorUnitTest.RunContrastSensorTest]
+      name: RunContrastSensorTest
+      fullName: u040.prespective.prepair.ContrastSensorUnitTest.RunContrastSensorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1172
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ContrastSensorUnitTest][suite]
+    - id: 1174
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.DCMotorUnitTest][suite]
+      name: DCMotorUnitTest
+      fullName: u040.prespective.prepair.DCMotorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1175
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/DCMotorUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.DCMotorUnitTest.RunDCMotorTest]
+      name: RunDCMotorTest
+      fullName: u040.prespective.prepair.DCMotorUnitTest.RunDCMotorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1174
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.DCMotorUnitTest][suite]
+    - id: 1176
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.DrivenServoMotorUnitTest][suite]
+      name: DrivenServoMotorUnitTest
+      fullName: u040.prespective.prepair.DrivenServoMotorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1177
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/DrivenServoMotorUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.DrivenServoMotorUnitTest.RunDrivenServoMotorTest]
+      name: RunDrivenServoMotorTest
+      fullName: u040.prespective.prepair.DrivenServoMotorUnitTest.RunDrivenServoMotorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1176
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.DrivenServoMotorUnitTest][suite]
+    - id: 1178
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.DrivenStepperMotorUnitTest][suite]
+      name: DrivenStepperMotorUnitTest
+      fullName: u040.prespective.prepair.DrivenStepperMotorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1179
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/DrivenStepperMotorUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.DrivenStepperMotorUnitTest.RunDrivenStepperMotorTest]
+      name: RunDrivenStepperMotorTest
+      fullName: u040.prespective.prepair.DrivenStepperMotorUnitTest.RunDrivenStepperMotorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1178
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.DrivenStepperMotorUnitTest][suite]
+    - id: 1180
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.IndicatorLightUnitTest][suite]
+      name: IndicatorLightUnitTest
+      fullName: u040.prespective.prepair.IndicatorLightUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1181
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/IndicatorLightUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.IndicatorLightUnitTest.RunIndicatorLightTest]
+      name: RunIndicatorLightTest
+      fullName: u040.prespective.prepair.IndicatorLightUnitTest.RunIndicatorLightTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1180
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.IndicatorLightUnitTest][suite]
+    - id: 1182
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.LimitedServoMotorUnitTest][suite]
+      name: LimitedServoMotorUnitTest
+      fullName: u040.prespective.prepair.LimitedServoMotorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1183
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/LimitedServoMotorUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.LimitedServoMotorUnitTest.RunLimitedServoMotorTest]
+      name: RunLimitedServoMotorTest
+      fullName: u040.prespective.prepair.LimitedServoMotorUnitTest.RunLimitedServoMotorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1182
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.LimitedServoMotorUnitTest][suite]
+    - id: 1184
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ProximitySensorUnitTest][suite]
+      name: ProximitySensorUnitTest
+      fullName: u040.prespective.prepair.ProximitySensorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1185
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/ProximitySensorUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ProximitySensorUnitTest.RunProximitySensorTest]
+      name: RunProximitySensorTest
+      fullName: u040.prespective.prepair.ProximitySensorUnitTest.RunProximitySensorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1184
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.ProximitySensorUnitTest][suite]
+    - id: 1186
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.RotarySwitchUnitTest][suite]
+      name: RotarySwitchUnitTest
+      fullName: u040.prespective.prepair.RotarySwitchUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1187
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/RotarySwitchUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.RotarySwitchUnitTest.RunRotarySwitchTest]
+      name: RunRotarySwitchTest
+      fullName: u040.prespective.prepair.RotarySwitchUnitTest.RunRotarySwitchTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1186
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.RotarySwitchUnitTest][suite]
+    - id: 1188
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.SlideSwitchUnitTest][suite]
+      name: SlideSwitchUnitTest
+      fullName: u040.prespective.prepair.SlideSwitchUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1193
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/[StandardComponentsUnitTestBuild][u040.prespective.prepair][suite]
+    - id: 1189
+      uniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/SlideSwitchUnitTest/[StandardComponentsUnitTestBuild][u040.prespective.prepair.SlideSwitchUnitTest.RunSlideSwitchTest]
+      name: RunSlideSwitchTest
+      fullName: u040.prespective.prepair.SlideSwitchUnitTest.RunSlideSwitchTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1188
+      parentUniqueId: StandardComponentsUnitTestBuild.dll/u040/prespective/prepair/[StandardComponentsUnitTestBuild][u040.prespective.prepair.SlideSwitchUnitTest][suite]
+    m_ResultText: FMUUnitTests (14.109s)
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 39009380
+      m_LastClickedID: -2137849799
+      m_ExpandedIDs: 39009380152a8a93dcf965952c74be960452cf9a1781319bc82b639d0179639fbf5ec4a38f2fa5b22ae189b603b556bee056a9c02591ecc0663fedc1fabf35c21c8086c26ff9e1c44552b3c6b6d3c5cd62e4ecd34ce2c2da7c58c5db46ceeedb652c07dca2df61e1b86fc1e3c1f5e0e40af132e9e48a09eb365c98f007b0b4f3aab6b2f6787295f94ae0f5fa476eb3fe0bf8f9005ddafe035c59ce100ca9a711d78a5a14faffe71f2d7c1021ea5d6421f8f20228480146296404462bc83da22bf7af8b2e1aff40356372483603e7ab3a1657ef3df86a6d3e1d9df23ec09a0556286db3563b6f2a5a49caac5b403bdc633c93e569ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 16}
+    newResultList:
+    - id: 1000
+      uniqueId: '[Prespective][suite]'
+      name: Prespective
+      fullName: Prespective
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1010
+      uniqueId: '[ApaUnitTestEditor.dll][suite]'
+      name: ApaUnitTestEditor.dll
+      fullName: D:/Thijs/Git/Prespective/Prespective/Library/ScriptAssemblies/ApaUnitTestEditor.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Prespective][suite]'
+    - id: 1011
+      uniqueId: ApaUnitTestEditor.dll/[u040][suite]
+      name: u040
+      fullName: u040
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1010
+      parentUniqueId: '[ApaUnitTestEditor.dll][suite]'
+    - id: 1012
+      uniqueId: ApaUnitTestEditor.dll/u040/[prespective][suite]
+      name: prespective
+      fullName: u040.prespective
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1011
+      parentUniqueId: ApaUnitTestEditor.dll/[u040][suite]
+    - id: 1013
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/[ApaUnitTestEditor][u040.prespective.prepair][suite]
+      name: prepair
+      fullName: u040.prespective.prepair
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1012
+      parentUniqueId: ApaUnitTestEditor.dll/u040/[prespective][suite]
+    - id: 1001
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/[ApaUnitTestEditor][u040.prespective.prepair.CustomWheelJointUnitTest][suite]
+      name: CustomWheelJointUnitTest
+      fullName: u040.prespective.prepair.CustomWheelJointUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1013
+      parentUniqueId: ApaUnitTestEditor.dll/u040/prespective/[ApaUnitTestEditor][u040.prespective.prepair][suite]
+    - id: 1002
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/CustomWheelJointUnitTest/[ApaUnitTestEditor][u040.prespective.prepair.CustomWheelJointUnitTest.WheelTest]
+      name: WheelTest
+      fullName: u040.prespective.prepair.CustomWheelJointUnitTest.WheelTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/[ApaUnitTestEditor][u040.prespective.prepair.CustomWheelJointUnitTest][suite]
+    - id: 1014
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/[pass][suite]
+      name: pass
+      fullName: u040.prespective.prepair.pass
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1013
+      parentUniqueId: ApaUnitTestEditor.dll/u040/prespective/[ApaUnitTestEditor][u040.prespective.prepair][suite]
+    - id: 1015
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics][suite]
+      name: physics
+      fullName: u040.prespective.prepair.pass.physics
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/[pass][suite]
+    - id: 1003
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/physics/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics.MultiBooleanDPolygon2DUnitTest][suite]
+      name: MultiBooleanDPolygon2DUnitTest
+      fullName: u040.prespective.prepair.pass.physics.MultiBooleanDPolygon2DUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1015
+      parentUniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics][suite]
+    - id: 1004
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/physics/MultiBooleanDPolygon2DUnitTest/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics.MultiBooleanDPolygon2DUnitTest.Boolean2DTest]
+      name: Boolean2DTest
+      fullName: u040.prespective.prepair.pass.physics.MultiBooleanDPolygon2DUnitTest.Boolean2DTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1003
+      parentUniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/physics/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics.MultiBooleanDPolygon2DUnitTest][suite]
+    - id: 1005
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/physics/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics.PhyiscsRotationUnitTest][suite]
+      name: PhyiscsRotationUnitTest
+      fullName: u040.prespective.prepair.pass.physics.PhyiscsRotationUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1015
+      parentUniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics][suite]
+    - id: 1007
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/physics/PhyiscsRotationUnitTest/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics.PhyiscsRotationUnitTest.PhysicsRotationAngleTest]
+      name: PhysicsRotationAngleTest
+      fullName: u040.prespective.prepair.pass.physics.PhyiscsRotationUnitTest.PhysicsRotationAngleTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/physics/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics.PhyiscsRotationUnitTest][suite]
+    - id: 1006
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/physics/PhyiscsRotationUnitTest/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics.PhyiscsRotationUnitTest.PhysicsRotationPointTest]
+      name: PhysicsRotationPointTest
+      fullName: u040.prespective.prepair.pass.physics.PhyiscsRotationUnitTest.PhysicsRotationPointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/physics/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics.PhyiscsRotationUnitTest][suite]
+    - id: 1008
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/physics/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics.PhysicsUtilityUnitTest][suite]
+      name: PhysicsUtilityUnitTest
+      fullName: u040.prespective.prepair.pass.physics.PhysicsUtilityUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1015
+      parentUniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics][suite]
+    - id: 1009
+      uniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/physics/PhysicsUtilityUnitTest/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics.PhysicsUtilityUnitTest.PhysicsCollisionEdgesTest]
+      name: PhysicsCollisionEdgesTest
+      fullName: u040.prespective.prepair.pass.physics.PhysicsUtilityUnitTest.PhysicsCollisionEdgesTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: ApaUnitTestEditor.dll/u040/prespective/prepair/pass/physics/[ApaUnitTestEditor][u040.prespective.prepair.pass.physics.PhysicsUtilityUnitTest][suite]
+    - id: 1032
+      uniqueId: '[CoreUnitTestEditor.dll][suite]'
+      name: CoreUnitTestEditor.dll
+      fullName: D:/Thijs/Git/Prespective/Prespective/Library/ScriptAssemblies/CoreUnitTestEditor.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Prespective][suite]'
+    - id: 1033
+      uniqueId: CoreUnitTestEditor.dll/[u040][suite]
+      name: u040
+      fullName: u040
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1032
+      parentUniqueId: '[CoreUnitTestEditor.dll][suite]'
+    - id: 1034
+      uniqueId: CoreUnitTestEditor.dll/u040/[prespective][suite]
+      name: prespective
+      fullName: u040.prespective
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1033
+      parentUniqueId: CoreUnitTestEditor.dll/[u040][suite]
+    - id: 1035
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/[CoreUnitTestEditor][u040.prespective.core][suite]
+      name: core
+      fullName: u040.prespective.core
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1034
+      parentUniqueId: CoreUnitTestEditor.dll/u040/[prespective][suite]
+    - id: 1016
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.DTransformUnitTest][suite]
+      name: DTransformUnitTest
+      fullName: u040.prespective.core.DTransformUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1035
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/[CoreUnitTestEditor][u040.prespective.core][suite]
+    - id: 1017
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/DTransformUnitTest/[CoreUnitTestEditor][u040.prespective.core.DTransformUnitTest.DTransformTest]
+      name: DTransformTest
+      fullName: u040.prespective.core.DTransformUnitTest.DTransformTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.DTransformUnitTest][suite]
+    - id: 1018
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.ParentUtilityUnitTest][suite]
+      name: ParentUtilityUnitTest
+      fullName: u040.prespective.core.ParentUtilityUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1035
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/[CoreUnitTestEditor][u040.prespective.core][suite]
+    - id: 1019
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/ParentUtilityUnitTest/[CoreUnitTestEditor][u040.prespective.core.ParentUtilityUnitTest.ParentUtilityTest]
+      name: ParentUtilityTest
+      fullName: u040.prespective.core.ParentUtilityUnitTest.ParentUtilityTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1018
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.ParentUtilityUnitTest][suite]
+    - id: 1020
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.PivotUnitTest][suite]
+      name: PivotUnitTest
+      fullName: u040.prespective.core.PivotUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1035
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/[CoreUnitTestEditor][u040.prespective.core][suite]
+    - id: 1021
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/PivotUnitTest/[CoreUnitTestEditor][u040.prespective.core.PivotUnitTest.PivotTest]
+      name: PivotTest
+      fullName: u040.prespective.core.PivotUnitTest.PivotTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1020
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.PivotUnitTest][suite]
+    - id: 1022
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.SerializationUnitTest][suite]
+      name: SerializationUnitTest
+      fullName: u040.prespective.core.SerializationUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1035
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/[CoreUnitTestEditor][u040.prespective.core][suite]
+    - id: 1026
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/SerializationUnitTest/[CoreUnitTestEditor][u040.prespective.core.SerializationUnitTest.DeserializeObject]
+      name: DeserializeObject
+      fullName: u040.prespective.core.SerializationUnitTest.DeserializeObject
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.SerializationUnitTest][suite]
+    - id: 1024
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/SerializationUnitTest/[CoreUnitTestEditor][u040.prespective.core.SerializationUnitTest.GetInheritingTypes]
+      name: GetInheritingTypes
+      fullName: u040.prespective.core.SerializationUnitTest.GetInheritingTypes
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.SerializationUnitTest][suite]
+    - id: 1023
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/SerializationUnitTest/[CoreUnitTestEditor][u040.prespective.core.SerializationUnitTest.GetTypeAdvancedTest]
+      name: GetTypeAdvancedTest
+      fullName: u040.prespective.core.SerializationUnitTest.GetTypeAdvancedTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.SerializationUnitTest][suite]
+    - id: 1027
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/SerializationUnitTest/[CoreUnitTestEditor][u040.prespective.core.SerializationUnitTest.SerializeAndDeserializeObject]
+      name: SerializeAndDeserializeObject
+      fullName: u040.prespective.core.SerializationUnitTest.SerializeAndDeserializeObject
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.SerializationUnitTest][suite]
+    - id: 1025
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/SerializationUnitTest/[CoreUnitTestEditor][u040.prespective.core.SerializationUnitTest.SerializeObject]
+      name: SerializeObject
+      fullName: u040.prespective.core.SerializationUnitTest.SerializeObject
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.SerializationUnitTest][suite]
+    - id: 1028
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.SplineUnitTest][suite]
+      name: SplineUnitTest
+      fullName: u040.prespective.core.SplineUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1035
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/[CoreUnitTestEditor][u040.prespective.core][suite]
+    - id: 1031
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/SplineUnitTest/[CoreUnitTestEditor][u040.prespective.core.SplineUnitTest.ClosedPointTest]
+      name: ClosedPointTest
+      fullName: u040.prespective.core.SplineUnitTest.ClosedPointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.SplineUnitTest][suite]
+    - id: 1029
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/SplineUnitTest/[CoreUnitTestEditor][u040.prespective.core.SplineUnitTest.PositionTest]
+      name: PositionTest
+      fullName: u040.prespective.core.SplineUnitTest.PositionTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.SplineUnitTest][suite]
+    - id: 1030
+      uniqueId: CoreUnitTestEditor.dll/u040/prespective/core/SplineUnitTest/[CoreUnitTestEditor][u040.prespective.core.SplineUnitTest.RotationTest]
+      name: RotationTest
+      fullName: u040.prespective.core.SplineUnitTest.RotationTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1028
+      parentUniqueId: CoreUnitTestEditor.dll/u040/prespective/core/[CoreUnitTestEditor][u040.prespective.core.SplineUnitTest][suite]
+    - id: 1048
+      uniqueId: '[PrepairUnitTestEditor.dll][suite]'
+      name: PrepairUnitTestEditor.dll
+      fullName: D:/Thijs/Git/Prespective/Prespective/Library/ScriptAssemblies/PrepairUnitTestEditor.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Prespective][suite]'
+    - id: 1049
+      uniqueId: PrepairUnitTestEditor.dll/[u040][suite]
+      name: u040
+      fullName: u040
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1048
+      parentUniqueId: '[PrepairUnitTestEditor.dll][suite]'
+    - id: 1050
+      uniqueId: PrepairUnitTestEditor.dll/u040/[prespective][suite]
+      name: prespective
+      fullName: u040.prespective
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1049
+      parentUniqueId: PrepairUnitTestEditor.dll/[u040][suite]
+    - id: 1051
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/[PrepairUnitTestEditor][u040.prespective.prepair][suite]
+      name: prepair
+      fullName: u040.prespective.prepair
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1050
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/[prespective][suite]
+    - id: 1036
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.AlignerUnitTest][suite]
+      name: AlignerUnitTest
+      fullName: u040.prespective.prepair.AlignerUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1051
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/[PrepairUnitTestEditor][u040.prespective.prepair][suite]
+    - id: 1037
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/AlignerUnitTest/[PrepairUnitTestEditor][u040.prespective.prepair.AlignerUnitTest.AlignerUnitTestSimplePasses]
+      name: AlignerUnitTestSimplePasses
+      fullName: u040.prespective.prepair.AlignerUnitTest.AlignerUnitTestSimplePasses
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1036
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.AlignerUnitTest][suite]
+    - id: 1038
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.ConusColliderGeneratorUnitTest][suite]
+      name: ConusColliderGeneratorUnitTest
+      fullName: u040.prespective.prepair.ConusColliderGeneratorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1051
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/[PrepairUnitTestEditor][u040.prespective.prepair][suite]
+    - id: 1039
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/ConusColliderGeneratorUnitTest/[PrepairUnitTestEditor][u040.prespective.prepair.ConusColliderGeneratorUnitTest.ConusGeneratorTest]
+      name: ConusGeneratorTest
+      fullName: u040.prespective.prepair.ConusColliderGeneratorUnitTest.ConusGeneratorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1038
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.ConusColliderGeneratorUnitTest][suite]
+    - id: 1040
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.ConvexPolyhedronGeneratorUnitTest][suite]
+      name: ConvexPolyhedronGeneratorUnitTest
+      fullName: u040.prespective.prepair.ConvexPolyhedronGeneratorUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1051
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/[PrepairUnitTestEditor][u040.prespective.prepair][suite]
+    - id: 1041
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/ConvexPolyhedronGeneratorUnitTest/[PrepairUnitTestEditor][u040.prespective.prepair.ConvexPolyhedronGeneratorUnitTest.ConusGeneratorTest]
+      name: ConusGeneratorTest
+      fullName: u040.prespective.prepair.ConvexPolyhedronGeneratorUnitTest.ConusGeneratorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1040
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.ConvexPolyhedronGeneratorUnitTest][suite]
+    - id: 1042
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.GroupMeshScriptUnitTest][suite]
+      name: GroupMeshScriptUnitTest
+      fullName: u040.prespective.prepair.GroupMeshScriptUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1051
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/[PrepairUnitTestEditor][u040.prespective.prepair][suite]
+    - id: 1043
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/GroupMeshScriptUnitTest/[PrepairUnitTestEditor][u040.prespective.prepair.GroupMeshScriptUnitTest.GroupTest]
+      name: GroupTest
+      fullName: u040.prespective.prepair.GroupMeshScriptUnitTest.GroupTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1042
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.GroupMeshScriptUnitTest][suite]
+    - id: 1044
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.PhysicsManagerUnitTest][suite]
+      name: PhysicsManagerUnitTest
+      fullName: u040.prespective.prepair.PhysicsManagerUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1051
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/[PrepairUnitTestEditor][u040.prespective.prepair][suite]
+    - id: 1045
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/PhysicsManagerUnitTest/[PrepairUnitTestEditor][u040.prespective.prepair.PhysicsManagerUnitTest.PhysicManagerTest]
+      name: PhysicManagerTest
+      fullName: u040.prespective.prepair.PhysicsManagerUnitTest.PhysicManagerTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1044
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.PhysicsManagerUnitTest][suite]
+    - id: 1046
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.VHACDTest][suite]
+      name: VHACDTest
+      fullName: u040.prespective.prepair.VHACDTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1051
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/[PrepairUnitTestEditor][u040.prespective.prepair][suite]
+    - id: 1047
+      uniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/VHACDTest/[PrepairUnitTestEditor][u040.prespective.prepair.VHACDTest.VHACDTestSimplePasses]
+      name: VHACDTestSimplePasses
+      fullName: u040.prespective.prepair.VHACDTest.VHACDTestSimplePasses
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1046
+      parentUniqueId: PrepairUnitTestEditor.dll/u040/prespective/prepair/[PrepairUnitTestEditor][u040.prespective.prepair.VHACDTest][suite]
+    - id: 1064
+      uniqueId: '[PrescissorUnitTestEditor.dll][suite]'
+      name: PrescissorUnitTestEditor.dll
+      fullName: D:/Thijs/Git/Prespective/Prespective/Library/ScriptAssemblies/PrescissorUnitTestEditor.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Prespective][suite]'
+    - id: 1065
+      uniqueId: PrescissorUnitTestEditor.dll/[u040][suite]
+      name: u040
+      fullName: u040
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1064
+      parentUniqueId: '[PrescissorUnitTestEditor.dll][suite]'
+    - id: 1066
+      uniqueId: PrescissorUnitTestEditor.dll/u040/[prespective][suite]
+      name: prespective
+      fullName: u040.prespective
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1065
+      parentUniqueId: PrescissorUnitTestEditor.dll/[u040][suite]
+    - id: 1067
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/[PrescissorUnitTestEditor][u040.prespective.prescissor][suite]
+      name: prescissor
+      fullName: u040.prespective.prescissor
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1066
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/[prespective][suite]
+    - id: 1052
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.MeshQueriesManagerUnitTest][suite]
+      name: MeshQueriesManagerUnitTest
+      fullName: u040.prespective.prescissor.MeshQueriesManagerUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1067
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/[PrescissorUnitTestEditor][u040.prespective.prescissor][suite]
+    - id: 1053
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/MeshQueriesManagerUnitTest/[PrescissorUnitTestEditor][u040.prespective.prescissor.MeshQueriesManagerUnitTest.MeshQueriesManagerTest]
+      name: MeshQueriesManagerTest
+      fullName: u040.prespective.prescissor.MeshQueriesManagerUnitTest.MeshQueriesManagerTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1052
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.MeshQueriesManagerUnitTest][suite]
+    - id: 1054
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.MeshRescalerUnitTest][suite]
+      name: MeshRescalerUnitTest
+      fullName: u040.prespective.prescissor.MeshRescalerUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1067
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/[PrescissorUnitTestEditor][u040.prespective.prescissor][suite]
+    - id: 1055
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/MeshRescalerUnitTest/[PrescissorUnitTestEditor][u040.prespective.prescissor.MeshRescalerUnitTest.ScaleRemesherTest]
+      name: ScaleRemesherTest
+      fullName: u040.prespective.prescissor.MeshRescalerUnitTest.ScaleRemesherTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1054
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.MeshRescalerUnitTest][suite]
+    - id: 1056
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.MeshSplitterUnitTest][suite]
+      name: MeshSplitterUnitTest
+      fullName: u040.prespective.prescissor.MeshSplitterUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1067
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/[PrescissorUnitTestEditor][u040.prespective.prescissor][suite]
+    - id: 1057
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/MeshSplitterUnitTest/[PrescissorUnitTestEditor][u040.prespective.prescissor.MeshSplitterUnitTest.MeshSplitterTest]
+      name: MeshSplitterTest
+      fullName: u040.prespective.prescissor.MeshSplitterUnitTest.MeshSplitterTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1056
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.MeshSplitterUnitTest][suite]
+    - id: 1058
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.PlanarFeatureUnitTest][suite]
+      name: PlanarFeatureUnitTest
+      fullName: u040.prespective.prescissor.PlanarFeatureUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1067
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/[PrescissorUnitTestEditor][u040.prespective.prescissor][suite]
+    - id: 1059
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/PlanarFeatureUnitTest/[PrescissorUnitTestEditor][u040.prespective.prescissor.PlanarFeatureUnitTest.RunPlanarFeatureTest]
+      name: RunPlanarFeatureTest
+      fullName: u040.prespective.prescissor.PlanarFeatureUnitTest.RunPlanarFeatureTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1058
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.PlanarFeatureUnitTest][suite]
+    - id: 1060
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.ReplaceWithPrefabUnitTest][suite]
+      name: ReplaceWithPrefabUnitTest
+      fullName: u040.prespective.prescissor.ReplaceWithPrefabUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1067
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/[PrescissorUnitTestEditor][u040.prespective.prescissor][suite]
+    - id: 1061
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/ReplaceWithPrefabUnitTest/[PrescissorUnitTestEditor][u040.prespective.prescissor.ReplaceWithPrefabUnitTest.RunPlanarFeatureTest]
+      name: RunPlanarFeatureTest
+      fullName: u040.prespective.prescissor.ReplaceWithPrefabUnitTest.RunPlanarFeatureTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1060
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.ReplaceWithPrefabUnitTest][suite]
+    - id: 1062
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.TriangleCountUnitTest][suite]
+      name: TriangleCountUnitTest
+      fullName: u040.prespective.prescissor.TriangleCountUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1067
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/[PrescissorUnitTestEditor][u040.prespective.prescissor][suite]
+    - id: 1063
+      uniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/TriangleCountUnitTest/[PrescissorUnitTestEditor][u040.prespective.prescissor.TriangleCountUnitTest.TriangleCountTest]
+      name: TriangleCountTest
+      fullName: u040.prespective.prescissor.TriangleCountUnitTest.TriangleCountTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1062
+      parentUniqueId: PrescissorUnitTestEditor.dll/u040/prespective/prescissor/[PrescissorUnitTestEditor][u040.prespective.prescissor.TriangleCountUnitTest][suite]
+    - id: 1070
+      uniqueId: '[StandardComponentsUnitTestEditor.dll][suite]'
+      name: StandardComponentsUnitTestEditor.dll
+      fullName: D:/Thijs/Git/Prespective/Prespective/Library/ScriptAssemblies/StandardComponentsUnitTestEditor.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Prespective][suite]'
+    - id: 1071
+      uniqueId: StandardComponentsUnitTestEditor.dll/[u040][suite]
+      name: u040
+      fullName: u040
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1070
+      parentUniqueId: '[StandardComponentsUnitTestEditor.dll][suite]'
+    - id: 1072
+      uniqueId: StandardComponentsUnitTestEditor.dll/u040/[prespective][suite]
+      name: prespective
+      fullName: u040.prespective
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1071
+      parentUniqueId: StandardComponentsUnitTestEditor.dll/[u040][suite]
+    - id: 1073
+      uniqueId: StandardComponentsUnitTestEditor.dll/u040/prespective/[StandardComponentsUnitTestEditor][u040.prespective.prepair][suite]
+      name: prepair
+      fullName: u040.prespective.prepair
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1072
+      parentUniqueId: StandardComponentsUnitTestEditor.dll/u040/[prespective][suite]
+    - id: 1068
+      uniqueId: StandardComponentsUnitTestEditor.dll/u040/prespective/prepair/[StandardComponentsUnitTestEditor][u040.prespective.prepair.ControlPanelInterfaceUnitTest][suite]
+      name: ControlPanelInterfaceUnitTest
+      fullName: u040.prespective.prepair.ControlPanelInterfaceUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1073
+      parentUniqueId: StandardComponentsUnitTestEditor.dll/u040/prespective/[StandardComponentsUnitTestEditor][u040.prespective.prepair][suite]
+    - id: 1069
+      uniqueId: StandardComponentsUnitTestEditor.dll/u040/prespective/prepair/ControlPanelInterfaceUnitTest/[StandardComponentsUnitTestEditor][u040.prespective.prepair.ControlPanelInterfaceUnitTest.RunControlPanelInterfaceTest]
+      name: RunControlPanelInterfaceTest
+      fullName: u040.prespective.prepair.ControlPanelInterfaceUnitTest.RunControlPanelInterfaceTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1068
+      parentUniqueId: StandardComponentsUnitTestEditor.dll/u040/prespective/prepair/[StandardComponentsUnitTestEditor][u040.prespective.prepair.ControlPanelInterfaceUnitTest][suite]
+    - id: 1093
+      uniqueId: '[UtilityUnitTestEditor.dll][suite]'
+      name: UtilityUnitTestEditor.dll
+      fullName: D:/Thijs/Git/Prespective/Prespective/Library/ScriptAssemblies/UtilityUnitTestEditor.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Prespective][suite]'
+    - id: 1094
+      uniqueId: UtilityUnitTestEditor.dll/[u040][suite]
+      name: u040
+      fullName: u040
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1093
+      parentUniqueId: '[UtilityUnitTestEditor.dll][suite]'
+    - id: 1095
+      uniqueId: UtilityUnitTestEditor.dll/u040/[prespective][suite]
+      name: prespective
+      fullName: u040.prespective
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1094
+      parentUniqueId: UtilityUnitTestEditor.dll/[u040][suite]
+    - id: 1096
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/[math][suite]
+      name: math
+      fullName: u040.prespective.math
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1095
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/[prespective][suite]
+    - id: 1098
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/[UtilityUnitTestEditor][u040.prespective.math.doubles][suite]
+      name: doubles
+      fullName: u040.prespective.math.doubles
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1096
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/[math][suite]
+    - id: 1079
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DIntersectionUnitTest][suite]
+      name: DIntersectionUnitTest
+      fullName: u040.prespective.math.doubles.DIntersectionUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/[UtilityUnitTestEditor][u040.prespective.math.doubles][suite]
+    - id: 1081
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/DIntersectionUnitTest/[UtilityUnitTestEditor][u040.prespective.math.doubles.DIntersectionUnitTest.DIntersectionCircleIntersectionTest]
+      name: DIntersectionCircleIntersectionTest
+      fullName: u040.prespective.math.doubles.DIntersectionUnitTest.DIntersectionCircleIntersectionTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DIntersectionUnitTest][suite]
+    - id: 1082
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/DIntersectionUnitTest/[UtilityUnitTestEditor][u040.prespective.math.doubles.DIntersectionUnitTest.DIntersectionClosedPointTest]
+      name: DIntersectionClosedPointTest
+      fullName: u040.prespective.math.doubles.DIntersectionUnitTest.DIntersectionClosedPointTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DIntersectionUnitTest][suite]
+    - id: 1080
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/DIntersectionUnitTest/[UtilityUnitTestEditor][u040.prespective.math.doubles.DIntersectionUnitTest.DIntersectionLineIntersectionTest]
+      name: DIntersectionLineIntersectionTest
+      fullName: u040.prespective.math.doubles.DIntersectionUnitTest.DIntersectionLineIntersectionTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DIntersectionUnitTest][suite]
+    - id: 1083
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/DIntersectionUnitTest/[UtilityUnitTestEditor][u040.prespective.math.doubles.DIntersectionUnitTest.DIntersectionProjectOntoLineTest]
+      name: DIntersectionProjectOntoLineTest
+      fullName: u040.prespective.math.doubles.DIntersectionUnitTest.DIntersectionProjectOntoLineTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1079
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DIntersectionUnitTest][suite]
+    - id: 1084
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPlaneUnitTest][suite]
+      name: DPlaneUnitTest
+      fullName: u040.prespective.math.doubles.DPlaneUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/[UtilityUnitTestEditor][u040.prespective.math.doubles][suite]
+    - id: 1085
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/DPlaneUnitTest/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPlaneUnitTest.DPlaneTest]
+      name: DPlaneTest
+      fullName: u040.prespective.math.doubles.DPlaneUnitTest.DPlaneTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1084
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPlaneUnitTest][suite]
+    - id: 1086
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPolygon2DUnitTest][suite]
+      name: DPolygon2DUnitTest
+      fullName: u040.prespective.math.doubles.DPolygon2DUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/[UtilityUnitTestEditor][u040.prespective.math.doubles][suite]
+    - id: 1089
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/DPolygon2DUnitTest/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPolygon2DUnitTest.DPolygon2DAllignmentTest]
+      name: DPolygon2DAllignmentTest
+      fullName: u040.prespective.math.doubles.DPolygon2DUnitTest.DPolygon2DAllignmentTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1086
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPolygon2DUnitTest][suite]
+    - id: 1088
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/DPolygon2DUnitTest/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPolygon2DUnitTest.DPolygon2DClippingTest]
+      name: DPolygon2DClippingTest
+      fullName: u040.prespective.math.doubles.DPolygon2DUnitTest.DPolygon2DClippingTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1086
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPolygon2DUnitTest][suite]
+    - id: 1087
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/DPolygon2DUnitTest/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPolygon2DUnitTest.DPolygon2DDistanceTest]
+      name: DPolygon2DDistanceTest
+      fullName: u040.prespective.math.doubles.DPolygon2DUnitTest.DPolygon2DDistanceTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1086
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPolygon2DUnitTest][suite]
+    - id: 1090
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/DPolygon2DUnitTest/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPolygon2DUnitTest.DPolygon2DPointInPolygonTest]
+      name: DPolygon2DPointInPolygonTest
+      fullName: u040.prespective.math.doubles.DPolygon2DUnitTest.DPolygon2DPointInPolygonTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1086
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.DPolygon2DUnitTest][suite]
+    - id: 1091
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.LiuAndChenUnitTest][suite]
+      name: LiuAndChenUnitTest
+      fullName: u040.prespective.math.doubles.LiuAndChenUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1098
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/[UtilityUnitTestEditor][u040.prespective.math.doubles][suite]
+    - id: 1092
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/LiuAndChenUnitTest/[UtilityUnitTestEditor][u040.prespective.math.doubles.LiuAndChenUnitTest.LiuAndChenTest]
+      name: LiuAndChenTest
+      fullName: u040.prespective.math.doubles.LiuAndChenUnitTest.LiuAndChenTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1091
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/doubles/[UtilityUnitTestEditor][u040.prespective.math.doubles.LiuAndChenUnitTest][suite]
+    - id: 1097
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/[UtilityUnitTestEditor][u040.prespective.math.spline][suite]
+      name: spline
+      fullName: u040.prespective.math.spline
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1096
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/[math][suite]
+    - id: 1076
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/spline/[UtilityUnitTestEditor][u040.prespective.math.spline.DNURBSCurve2DUnitTest][suite]
+      name: DNURBSCurve2DUnitTest
+      fullName: u040.prespective.math.spline.DNURBSCurve2DUnitTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1097
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/[UtilityUnitTestEditor][u040.prespective.math.spline][suite]
+    - id: 1078
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/spline/DNURBSCurve2DUnitTest/[UtilityUnitTestEditor][u040.prespective.math.spline.DNURBSCurve2DUnitTest.ClampingTest]
+      name: ClampingTest
+      fullName: u040.prespective.math.spline.DNURBSCurve2DUnitTest.ClampingTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1076
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/spline/[UtilityUnitTestEditor][u040.prespective.math.spline.DNURBSCurve2DUnitTest][suite]
+    - id: 1077
+      uniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/spline/DNURBSCurve2DUnitTest/[UtilityUnitTestEditor][u040.prespective.math.spline.DNURBSCurve2DUnitTest.LimitingTest]
+      name: LimitingTest
+      fullName: u040.prespective.math.spline.DNURBSCurve2DUnitTest.LimitingTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1076
+      parentUniqueId: UtilityUnitTestEditor.dll/u040/prespective/math/spline/[UtilityUnitTestEditor][u040.prespective.math.spline.DNURBSCurve2DUnitTest][suite]
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 68eba1cba2df61e128c00b42ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &17
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 711
+    width: 1024
+    height: 328
+  m_ViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 1
+    m_SearchArea: 1
+    m_Folders:
+    - Assets
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets/prespective/externallibraries/Plugins/Build
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: D:\Thijs\Git\Prespective\Prespective
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 115}
+    m_SelectedIDs: 0c670000
+    m_LastClickedID: 26380
+    m_ExpandedIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c623000000000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 9}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 60}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 1
+  m_DirectoriesAreaWidth: 203
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 3364
+    y: 145.6
+    width: 603
+    height: 675
+  m_ViewDataDictionary: {fileID: 0}
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+  m_GlobalObjectId: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewWindow: {fileID: 0}
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 3364
+    y: -216.79999
+    width: 603
+    height: 342
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: fcdfffff
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 5}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 620636005803cc543b992df5f9498a0b
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: -216.79999
+    width: 718
+    height: 663
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 1cecb5d85eb057948a918b9225858e23
+  m_Gizmos: 1
+  m_OverrideSceneCullingMask: 6917529027641081856
+  m_SceneIsLit: 1
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 0.03117436, y: 0.6857848, z: 0}
+    speed: 2
+    m_Value: {x: 0.03117436, y: 0.6857848, z: 0}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 2
+    name: Shaded Wireframe
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_ExposureSliderValue: 0
+  m_SceneViewState:
+    m_AlwaysRefresh: 0
+    showFog: 0
+    showSkybox: 0
+    showFlares: 0
+    showImageEffects: 0
+    showParticleSystems: 0
+    showVisualEffectGraphs: 1
+    m_FxEnabled: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 1
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 1
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 2
+    m_SpeedNormalized: 1
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 0
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 0
+    m_FieldOfViewHorizontalOrVertical: 60
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2639.2
+    y: -216.79999
+    width: 723
+    height: 663
+  m_ViewDataDictionary: {fileID: 0}
+  m_SerializedViewNames: []
+  m_SerializedViewValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 723, y: 642}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_MaximizeOnPlay: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -289.2
+    m_HBaseRangeMax: 289.2
+    m_VBaseRangeMin: -256.80002
+    m_VBaseRangeMax: 256.80002
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 723
+      height: 642
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 361.5, y: 321}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -361.5
+      y: -321
+      width: 723
+      height: 642
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 903.75, y: 828.75}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 01000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1920
+    y: 467.20004
+    width: 1443
+    height: 354
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13963, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DontSaveToLayout: 0
