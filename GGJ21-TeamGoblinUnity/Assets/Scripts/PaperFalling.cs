@@ -25,7 +25,6 @@ public class PaperFalling : MonoBehaviour
 
         if( Physics2D.OverlapCircle(this.transform.position, checkRadius, groundLayers) )
         {
-            Debug.Log("Destroy me");
             Destroy(this.gameObject);
         }
     }
