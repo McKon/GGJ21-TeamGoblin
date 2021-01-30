@@ -39,7 +39,10 @@ public class GrabObjects : MonoBehaviour
         if (EquipItem)
         {
             EquipItem.GetComponent<Rigidbody2D>().gravityScale = 0;
-            EquipItem.GetComponent<Transform>().position = handTransform.position;
+            Vector3 vector3 = handTransform.position;
+            vector3.z = 0.1f;
+            EquipItem.GetComponent<Transform>().position = vector3;
+
         }
     }
 }

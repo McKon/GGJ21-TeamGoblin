@@ -28,7 +28,8 @@ public class ClimbLadder : MonoBehaviour
     void FixedUpdate()
     {
         inputHorizontal = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(inputHorizontal * speed, rb.velocity.y);
+        rb.velocity = new Vector2( inputHorizontal * speed, rb.velocity.y);
+
         inputVertical = Input.GetAxis("Vertical");
 
         RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, Vector2.up, distance, ladderLayer);
@@ -49,7 +50,7 @@ public class ClimbLadder : MonoBehaviour
         if(isClimbing == true)
         {
             inputVertical = Input.GetAxis("Vertical");
-            rb.velocity = new Vector2(rb.position.x, inputVertical * speed);
+            rb.velocity = new Vector2(rb.velocity.x, inputVertical * speed);
             rb.gravityScale = 0;
         }
     }
