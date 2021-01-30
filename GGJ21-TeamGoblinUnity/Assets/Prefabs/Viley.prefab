@@ -45,10 +45,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f0f84986fcc1140b9cc2466d35170e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ExtendedTime: 1
+  ExtendedContractTime: 1
   ShakeTime: 0.3
-  ContractedTime: 1
   MaxRadiusShaking: 0.1
+  startExtended: 0
   viley: {fileID: 4188224946424070532}
 --- !u!212 &2753082448468104885
 SpriteRenderer:
