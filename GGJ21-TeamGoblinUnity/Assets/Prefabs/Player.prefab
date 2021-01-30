@@ -478,13 +478,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpForce: 1.3
+  jumpForce: 1
   feetPos: {fileID: 3714944607611072232}
   checkRadius: 0.3
   groundLayers:
     serializedVersion: 2
     m_Bits: 4096
-  jumpTime: 0.35
+  jumpTime: 0.2
 --- !u!212 &3714944608929418492
 SpriteRenderer:
   m_ObjectHideFlags: 0
