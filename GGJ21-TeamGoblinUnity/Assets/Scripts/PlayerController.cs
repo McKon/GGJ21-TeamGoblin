@@ -35,11 +35,11 @@ public class PlayerController : MonoBehaviour
 
         if(moveInput > 0)
         {
-            rb.transform.rotation = Quaternion.Euler( 0, 180, 0);
+            rb.transform.rotation = Quaternion.Euler( 0, 0, 0);
         }
         else if(moveInput < 0)
         {
-            rb.transform.rotation = Quaternion.Euler(0, 0, 0);
+            rb.transform.rotation = Quaternion.Euler(0, 180, 0);
         }
 
         if (isGrounded == true && Input.GetKey(KeyCode.Space))
