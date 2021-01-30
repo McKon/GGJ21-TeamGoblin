@@ -35,6 +35,11 @@ public class Viley : MonoBehaviour
             viley.SetActive(false);
             GetComponent<SpriteRenderer>().enabled = true;
             yield return new WaitForSecondsRealtime(ContractedTime);
+            isShaking = true;
+
+            yield return new WaitForSecondsRealtime(ShakeTime);
+            isShaking = false;
+            transform.localPosition = Vector2.zero;
         }
     }
 
