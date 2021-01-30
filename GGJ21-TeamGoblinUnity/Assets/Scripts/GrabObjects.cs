@@ -6,7 +6,7 @@ public class GrabObjects : MonoBehaviour
     public Transform handTransform;
 
     public float equipRadius;
-    public Transform ItemEquipRegion;
+    public GameObject EquipItem;
 
     public LayerMask objectLayer;
 
@@ -17,31 +17,29 @@ public class GrabObjects : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-    }
-
-    private void FixedUpdate()
-    {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (ItemEquipRegion)
+            if (EquipItem)
             {
-                ItemEquipRegion = null;
+                EquipItem.GetComponent<Rigidbody2D>().gravityScale = 1;
+                EquipItem = null;
             }
             else
             {
                 Collider2D collider2D = Physics2D.OverlapCircle(handTransform.position, equipRadius, objectLayer);
-                if (collider2D && ItemEquipRegion == null)
+                if (collider2D && EquipItem == null)
                 {
                     Debug.Log("Found Item @ " + collider2D.transform.position);
                     
-                    ItemEquipRegion = collider2D.transform;
+                    EquipItem = collider2D.gameObject;
                 }
             }
         }
 
-        if (ItemEquipRegion)
+        if (EquipItem)
         {
-            ItemEquipRegion.position = handTransform.position;
+            EquipItem.GetComponent<Rigidbody2D>().gravityScale = 0;
+            EquipItem.GetComponent<Transform>().position = handTransform.position;
         }
     }
 }
