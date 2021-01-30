@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FallingPaper : MonoBehaviour
+public class PaperSpawner : MonoBehaviour
 {
     public Transform startingPos;
+    public float SpawnPeriod;
+    public GameObject paperTemplate;
 
     private List<GameObject> papers;
 
@@ -16,7 +18,12 @@ public class FallingPaper : MonoBehaviour
 
     private IEnumerator SpawnPaper()
     {
-        yield return null;
+        while (true)
+        {
+            Instantiate(paperTemplate, startingPos);
+            yield return new WaitForSecondsRealtime(SpawnPeriod);
+
+        }
     }
 
 
