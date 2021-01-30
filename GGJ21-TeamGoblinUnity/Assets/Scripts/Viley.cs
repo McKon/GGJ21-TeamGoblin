@@ -5,10 +5,10 @@ using UnityEngine;
 public class Viley : MonoBehaviour
 {
 
-    public float ExtendedTime;
+    public float ExtendedContractTime;
     public float ShakeTime;
-    public float ContractedTime;
     public float MaxRadiusShaking;
+    public bool startExtended;
     public GameObject viley;
 
     private bool isShaking;
@@ -23,23 +23,15 @@ public class Viley : MonoBehaviour
     {
         while (true)
         {
-            viley.SetActive(true);
-            GetComponent<SpriteRenderer>().enabled = false;
-            yield return new WaitForSecondsRealtime(ExtendedTime);
+            viley.SetActive(startExtended);
+            GetComponent<SpriteRenderer>().enabled = !startExtended;
+            yield return new WaitForSecondsRealtime(ExtendedContractTime);
             isShaking = true;
 
             yield return new WaitForSecondsRealtime(ShakeTime);
             isShaking = false;
             transform.localPosition = Vector2.zero;
-
-            viley.SetActive(false);
-            GetComponent<SpriteRenderer>().enabled = true;
-            yield return new WaitForSecondsRealtime(ContractedTime);
-            isShaking = true;
-
-            yield return new WaitForSecondsRealtime(ShakeTime);
-            isShaking = false;
-            transform.localPosition = Vector2.zero;
+            startExtended = !startExtended;
         }
     }
 
