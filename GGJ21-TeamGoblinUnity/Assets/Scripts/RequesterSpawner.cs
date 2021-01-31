@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class RequesterSpawner : MonoBehaviour
 {
+    public List<Sprite> NPCsprites;
     public List<GameObject> RequestableItems;
     public GameObject RequestTemplate;
     public Transform StartingPos;
@@ -22,30 +23,52 @@ public class RequesterSpawner : MonoBehaviour
 
     private IEnumerator SpawnRequesters()
     {
-        foreach(GameObject go in RequestableItems)
+        // Go through the whole list of items
+        for (int i = RequestableItems.Count; i > 0; i--)
         {
-            GameObject Requester = Instantiate(RequestTemplate, StartingPos);
-            Requester.GetComponent<ItemRequester>().RequestedObject = go.GetComponent<SpriteRenderer>().sprite;
+            // Spawns an NPC
+            GameObject Requester = Instantiate(RequestTemplate, this.transform);
+            Requester.transform.position = StartingPos.position;
+            // Give it a random NPC sprite
+            Requester.GetComponent<SpriteRenderer>().sprite = NPCsprites[Random.Range(0, NPCsprites.Count - 1)];
+            // Select a random item from the item list
+            GameObject RequestObject = RequestableItems[Random.Range(0, RequestableItems.Count)];
+            // Give that item to the NPC to request
+            Requester.GetComponent<ItemRequester>().RequestedObject = RequestObject.GetComponent<SpriteRenderer>().sprite;
+            // Remove the item from the list of items
+            RequestableItems.Remove(RequestObject);
+            // Add the NPC to the list of currently active NPCs
             Requesters.Add(Requester);
-
+            
+            // If we want to wait for the current NPC to be done
             if (!AllRequestables)
             {
+                // Wait while the Requester still exists
                 yield return new WaitWhile(() => Requester != null );
             }
-
+            else
+            {
+                // If we may have multiple NPCs at the same time move them so they don't overlap
+                Vector3 vector3 = StartingPos.position;
+                vector3.x -= 2;
+                StartingPos.position = vector3;
+            }
+            
+            // Wait x amounts of seconds for next NPC to spawn.
             yield return new WaitForSecondsRealtime(RequestPeriod);
         }
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
+        // Remove all NPCs that have been destroyed
         Requesters.RemoveAll(item => item== null);
 
-        if(Requesters.Count == 0)
+        // Check if all NPCs are gone and all Items have NPCs
+        if(Requesters.Count == 0 && RequestableItems.Count == 0)
         {
             Debug.Log("Level Complete");
-
         }
     }
 }
