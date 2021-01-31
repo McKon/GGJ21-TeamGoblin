@@ -16,6 +16,13 @@ public class PlayerController : MonoBehaviour
     public float jumpTime;
     private bool isJumping;
 
+    // This is where I came in ~Boyd
+    public AudioSource audioWalk;
+    public AudioSource audioLand;
+    bool isMoving;
+    bool hitGround;
+    
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -25,13 +32,23 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, groundLayers);
+
+        //Boyd Code
+        if(isGrounded && !hitGround)
+        {
+            audioLand.Play();
+        }
+
+
+        hitGround = isGrounded;
     }
 
     // Update is called once per frame
     private void FixedUpdate()
     {
         moveInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y) ;
+        rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
+
 
         if(moveInput > 0)
         {
@@ -65,6 +82,33 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Space))
         {
             isJumping = false;
+        }
+
+        //To get Audio to play when walking
+        if (rb.velocity.x != 0)
+        {
+            isMoving = true;
+        }
+        else
+        {
+            isMoving = false;
+        }
+
+        if (isMoving)
+        {
+            if (isGrounded)
+            {
+                if (!audioWalk.isPlaying)
+                    audioWalk.Play();
+            }
+            else
+            {
+                audioWalk.Stop();
+            }
+        }
+        else
+        {
+            audioWalk.Stop();
         }
     }
 }
