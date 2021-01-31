@@ -1,12 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 
 public class QuitOnClick : MonoBehaviour
 {
-    void Quit ()
+
+    public void Quit()
     {
-        Application.Quit ();
+        Application.Quit();
     }
-        
+
 }
