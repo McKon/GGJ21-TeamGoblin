@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RequesterSpawner : MonoBehaviour
 {
@@ -10,7 +11,9 @@ public class RequesterSpawner : MonoBehaviour
     public Transform StartingPos;
     public float RequestPeriod;
     public bool AllRequestables;
-
+    public string NextSceneName;
+    
+    private Scene NextScene;
     private List<GameObject> Requesters;
 
     AudioSource audioDing;
@@ -35,7 +38,7 @@ public class RequesterSpawner : MonoBehaviour
             Requester.transform.position = StartingPos.position;
             audioDing.Play();
             // Give it a random NPC sprite
-            Requester.GetComponent<SpriteRenderer>().sprite = NPCsprites[Random.Range(0, NPCsprites.Count - 1)];
+            Requester.GetComponent<SpriteRenderer>().sprite = NPCsprites[Random.Range(0, NPCsprites.Count)];
             // Select a random item from the item list
             GameObject RequestObject = RequestableItems[Random.Range(0, RequestableItems.Count)];
             // Give that item to the NPC to request
@@ -73,7 +76,11 @@ public class RequesterSpawner : MonoBehaviour
         // Check if all NPCs are gone and all Items have NPCs
         if(Requesters.Count == 0 && RequestableItems.Count == 0)
         {
+
             Debug.Log("Level Complete");
+
+            SceneManager.LoadScene(NextSceneName, LoadSceneMode.Single);
+
         }
     }
 }
