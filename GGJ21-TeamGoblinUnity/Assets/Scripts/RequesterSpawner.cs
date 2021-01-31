@@ -13,12 +13,16 @@ public class RequesterSpawner : MonoBehaviour
 
     private List<GameObject> Requesters;
 
+    AudioSource audioDing;
+
 
     // Start is called before the first frame update
     void Start()
     {
         Requesters = new List<GameObject>();
+        audioDing = GetComponent<AudioSource>();
         StartCoroutine( SpawnRequesters());
+        
     }
 
     private IEnumerator SpawnRequesters()
@@ -29,6 +33,7 @@ public class RequesterSpawner : MonoBehaviour
             // Spawns an NPC
             GameObject Requester = Instantiate(RequestTemplate, this.transform);
             Requester.transform.position = StartingPos.position;
+            audioDing.Play();
             // Give it a random NPC sprite
             Requester.GetComponent<SpriteRenderer>().sprite = NPCsprites[Random.Range(0, NPCsprites.Count - 1)];
             // Select a random item from the item list
